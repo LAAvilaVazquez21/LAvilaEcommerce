@@ -1,0 +1,6 @@
+framework module Pods_LAvilaEcommerce {
+  umbrella header "Pods-LAvilaEcommerce-umbrella.h"
+
+  export *
+  module * { export * }
+}

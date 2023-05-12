@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1E86FA2A0DAE6A000525D6 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */; };
+		7A4995A42A0C042500AA92F5 /* RolGetAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */; };
+		7A542D362A02E8830068E3F1 /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A542D352A02E8820068E3F1 /* GetAllUsuarioController.swift */; };
+		7A542D392A02F1170068E3F1 /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A542D372A02F1170068E3F1 /* UsuarioCell.swift */; };
+		7A542D3A2A02F1170068E3F1 /* UsuarioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A542D382A02F1170068E3F1 /* UsuarioCell.xib */; };
+		7A54689129FC53A8006BA180 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54689029FC53A8006BA180 /* DBManager.swift */; };
+		7A54689329FC7481006BA180 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54689229FC7481006BA180 /* Usuario.swift */; };
+		7A57C9BD2A01D4F300FED5F5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57C9BC2A01D4F300FED5F5 /* Result.swift */; };
+		7A75DB2D29FAFFAC0058795F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A75DB2C29FAFFAC0058795F /* AppDelegate.swift */; };
+		7A75DB2F29FAFFAC0058795F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A75DB2E29FAFFAC0058795F /* SceneDelegate.swift */; };
+		7A75DB3129FAFFAC0058795F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A75DB3029FAFFAC0058795F /* ViewController.swift */; };
+		7A75DB3429FAFFAC0058795F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A75DB3229FAFFAC0058795F /* Main.storyboard */; };
+		7A75DB3629FAFFAE0058795F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A75DB3529FAFFAE0058795F /* Assets.xcassets */; };
+		7A75DB3929FAFFAE0058795F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A75DB3729FAFFAE0058795F /* LaunchScreen.storyboard */; };
+		7A76D2412A0AF233005325EA /* Rol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76D2402A0AF233005325EA /* Rol.swift */; };
+		7A76D2452A0AF348005325EA /* RolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76D2432A0AF348005325EA /* RolCell.swift */; };
+		7A76D2462A0AF348005325EA /* RolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A76D2442A0AF348005325EA /* RolCell.xib */; };
+		7A76D2482A0AF9D0005325EA /* RolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76D2472A0AF9D0005325EA /* RolViewModel.swift */; };
+		7A76D24B2A0B163B005325EA /* FormRolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76D24A2A0B163B005325EA /* FormRolController.swift */; };
+		7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */; };
+		9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.release.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.release.xcconfig"; sourceTree = "<group>"; };
+		7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolGetAllController.swift; sourceTree = "<group>"; };
+		7A542D352A02E8820068E3F1 /* GetAllUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuarioController.swift; sourceTree = "<group>"; };
+		7A542D372A02F1170068E3F1 /* UsuarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCell.swift; sourceTree = "<group>"; };
+		7A542D382A02F1170068E3F1 /* UsuarioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsuarioCell.xib; sourceTree = "<group>"; };
+		7A54689029FC53A8006BA180 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		7A54689229FC7481006BA180 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		7A57C9BC2A01D4F300FED5F5 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAvilaEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A75DB2C29FAFFAC0058795F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A75DB2E29FAFFAC0058795F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A75DB3029FAFFAC0058795F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A75DB3329FAFFAC0058795F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A75DB3529FAFFAE0058795F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A75DB3829FAFFAE0058795F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A75DB3A29FAFFAE0058795F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A76D2402A0AF233005325EA /* Rol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rol.swift; sourceTree = "<group>"; };
+		7A76D2432A0AF348005325EA /* RolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolCell.swift; sourceTree = "<group>"; };
+		7A76D2442A0AF348005325EA /* RolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RolCell.xib; sourceTree = "<group>"; };
+		7A76D2472A0AF9D0005325EA /* RolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolViewModel.swift; sourceTree = "<group>"; };
+		7A76D24A2A0B163B005325EA /* FormRolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRolController.swift; sourceTree = "<group>"; };
+		7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
+		EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAvilaEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54A662A0A81E3D601A5B41B /* Pods-LAvilaEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.debug.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A75DB2629FAFFAC0058795F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1E86FA2A0DAE6A000525D6 /* iOSDropDown.framework in Frameworks */,
+				9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D862CDDA83749396531758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F54A662A0A81E3D601A5B41B /* Pods-LAvilaEcommerce.debug.xcconfig */,
+				45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A75DB2029FAFFAC0058795F = {
+			isa = PBXGroup;
+			children = (
+				7A75DB2B29FAFFAC0058795F /* LAvilaEcommerce */,
+				7A75DB2A29FAFFAC0058795F /* Products */,
+				46D862CDDA83749396531758 /* Pods */,
+				F3CB606989E526477D988672 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A75DB2A29FAFFAC0058795F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A75DB2B29FAFFAC0058795F /* LAvilaEcommerce */ = {
+			isa = PBXGroup;
+			children = (
+				7AF6F0B62A043F25007B5C29 /* Util */,
+				7AF6F0B42A043EC6007B5C29 /* Controller */,
+				7AF6F0B32A043EB5007B5C29 /* ViewModel */,
+				7AF6F0B22A043E99007B5C29 /* Model */,
+				7AF6F0AE2A043D59007B5C29 /* View */,
+				7A75DB2C29FAFFAC0058795F /* AppDelegate.swift */,
+				7A75DB2E29FAFFAC0058795F /* SceneDelegate.swift */,
+				7A75DB3529FAFFAE0058795F /* Assets.xcassets */,
+				7A75DB3A29FAFFAE0058795F /* Info.plist */,
+			);
+			path = LAvilaEcommerce;
+			sourceTree = "<group>";
+		};
+		7A76D2422A0AF29D005325EA /* Rol */ = {
+			isa = PBXGroup;
+			children = (
+				7A76D2432A0AF348005325EA /* RolCell.swift */,
+				7A76D2442A0AF348005325EA /* RolCell.xib */,
+			);
+			path = Rol;
+			sourceTree = "<group>";
+		};
+		7A76D2492A0AFA68005325EA /* Rol */ = {
+			isa = PBXGroup;
+			children = (
+				7A76D24A2A0B163B005325EA /* FormRolController.swift */,
+				7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */,
+			);
+			path = Rol;
+			sourceTree = "<group>";
+		};
+		7AF6F0AE2A043D59007B5C29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A75DB3729FAFFAE0058795F /* LaunchScreen.storyboard */,
+				7A75DB3229FAFFAC0058795F /* Main.storyboard */,
+				7A76D2422A0AF29D005325EA /* Rol */,
+				7AF6F0B12A043E61007B5C29 /* Usuario */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AF6F0B12A043E61007B5C29 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				7A542D372A02F1170068E3F1 /* UsuarioCell.swift */,
+				7A542D382A02F1170068E3F1 /* UsuarioCell.xib */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		7AF6F0B22A043E99007B5C29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A57C9BC2A01D4F300FED5F5 /* Result.swift */,
+				7A54689229FC7481006BA180 /* Usuario.swift */,
+				7A76D2402A0AF233005325EA /* Rol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AF6F0B32A043EB5007B5C29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */,
+				7A76D2472A0AF9D0005325EA /* RolViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7AF6F0B42A043EC6007B5C29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A76D2492A0AFA68005325EA /* Rol */,
+				7AF6F0B52A043EE4007B5C29 /* Usuario */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7AF6F0B52A043EE4007B5C29 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				7A75DB3029FAFFAC0058795F /* ViewController.swift */,
+				7A542D352A02E8820068E3F1 /* GetAllUsuarioController.swift */,
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		7AF6F0B62A043F25007B5C29 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7A54689029FC53A8006BA180 /* DBManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F3CB606989E526477D988672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */,
+				EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A75DB2829FAFFAC0058795F /* LAvilaEcommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A75DB3D29FAFFAE0058795F /* Build configuration list for PBXNativeTarget "LAvilaEcommerce" */;
+			buildPhases = (
+				8CC98E4ADFA36937C77503AB /* [CP] Check Pods Manifest.lock */,
+				7A75DB2529FAFFAC0058795F /* Sources */,
+				7A75DB2629FAFFAC0058795F /* Frameworks */,
+				7A75DB2729FAFFAC0058795F /* Resources */,
+				7626C62606F829AE8E0DE04D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAvilaEcommerce;
+			productName = LAvilaEcommerce;
+			productReference = 7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A75DB2129FAFFAC0058795F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7A75DB2829FAFFAC0058795F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 7A75DB2429FAFFAC0058795F /* Build configuration list for PBXProject "LAvilaEcommerce" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A75DB2029FAFFAC0058795F;
+			productRefGroup = 7A75DB2A29FAFFAC0058795F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A75DB2829FAFFAC0058795F /* LAvilaEcommerce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A75DB2729FAFFAC0058795F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A542D3A2A02F1170068E3F1 /* UsuarioCell.xib in Resources */,
+				7A75DB3929FAFFAE0058795F /* LaunchScreen.storyboard in Resources */,
+				7A75DB3629FAFFAE0058795F /* Assets.xcassets in Resources */,
+				7A76D2462A0AF348005325EA /* RolCell.xib in Resources */,
+				7A75DB3429FAFFAC0058795F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7626C62606F829AE8E0DE04D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC98E4ADFA36937C77503AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LAvilaEcommerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A75DB2529FAFFAC0058795F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A76D2452A0AF348005325EA /* RolCell.swift in Sources */,
+				7A57C9BD2A01D4F300FED5F5 /* Result.swift in Sources */,
+				7A76D2482A0AF9D0005325EA /* RolViewModel.swift in Sources */,
+				7A75DB3129FAFFAC0058795F /* ViewController.swift in Sources */,
+				7A4995A42A0C042500AA92F5 /* RolGetAllController.swift in Sources */,
+				7A542D362A02E8830068E3F1 /* GetAllUsuarioController.swift in Sources */,
+				7A76D2412A0AF233005325EA /* Rol.swift in Sources */,
+				7A75DB2D29FAFFAC0058795F /* AppDelegate.swift in Sources */,
+				7A542D392A02F1170068E3F1 /* UsuarioCell.swift in Sources */,
+				7A75DB2F29FAFFAC0058795F /* SceneDelegate.swift in Sources */,
+				7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */,
+				7A54689329FC7481006BA180 /* Usuario.swift in Sources */,
+				7A54689129FC53A8006BA180 /* DBManager.swift in Sources */,
+				7A76D24B2A0B163B005325EA /* FormRolController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A75DB3229FAFFAC0058795F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A75DB3329FAFFAC0058795F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A75DB3729FAFFAE0058795F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A75DB3829FAFFAE0058795F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A75DB3B29FAFFAE0058795F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A75DB3C29FAFFAE0058795F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A75DB3E29FAFFAE0058795F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54A662A0A81E3D601A5B41B /* Pods-LAvilaEcommerce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GF78NBJ67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LAvilaEcommerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A75DB3F29FAFFAE0058795F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GF78NBJ67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LAvilaEcommerce/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A75DB2429FAFFAC0058795F /* Build configuration list for PBXProject "LAvilaEcommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A75DB3B29FAFFAE0058795F /* Debug */,
+				7A75DB3C29FAFFAE0058795F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A75DB3D29FAFFAE0058795F /* Build configuration list for PBXNativeTarget "LAvilaEcommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A75DB3E29FAFFAE0058795F /* Debug */,
+				7A75DB3F29FAFFAE0058795F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A75DB2129FAFFAC0058795F /* Project object */;
+}

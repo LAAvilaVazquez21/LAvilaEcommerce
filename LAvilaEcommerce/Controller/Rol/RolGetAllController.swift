@@ -22,12 +22,15 @@ class RolGetAllController: UIViewController {
         tableview.reloadData()
     }
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        tableview.register(UINib(nibName: "RolCell", bundle: .main), forCellReuseIdentifier:"RolCell")
         
         tableview.delegate = self
         tableview.dataSource = self
+        
       
         
         updateUI()
@@ -55,6 +58,8 @@ extension RolGetAllController :UITableViewDataSource, UITableViewDelegate{
         return cell
     }
 }
+
+
 
 //MARK: SWIPECELLKIT
 extension RolGetAllController : SwipeTableViewCellDelegate{
@@ -112,7 +117,8 @@ extension RolGetAllController : SwipeTableViewCellDelegate{
                
            }
        }
-
+ 
+   
     
 }
 

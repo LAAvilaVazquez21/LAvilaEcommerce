@@ -22,6 +22,9 @@ class FormRolController : UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.txtidRoloutlet.delegate = self
+        self.txtNombreOutlet.delegate = self
+        
         print(IdRol)
         
         if IdRol == 0 {
@@ -107,12 +110,20 @@ class FormRolController : UIViewController{
         default:
             print("No se realizo nada")
         }
-        
     }
-        
+}
+
+//MARK: UITEXTFIELD
+extension FormRolController : UITextFieldDelegate{
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        txtNombreOutlet.resignFirstResponder()
+       // txtNombreOutlet.
+       
+        return true;
+    }
     
-        
-    
-    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }

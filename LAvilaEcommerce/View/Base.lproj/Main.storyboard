@@ -269,7 +269,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="MGb-Sd-ZMO">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="LhZ-gE-NkL"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="LhZ-gE-NkL">
+                            <connections>
+                                <segue destination="RIU-1d-LVG" kind="show" id="yU9-aE-Dcg"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableview" destination="qKc-n6-I7G" id="tMO-z3-319"/>
@@ -303,7 +307,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STR-CY-IJ9">
+                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STR-CY-IJ9">
                                         <rect key="frame" x="0.0" y="165" width="330" height="26.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -424,7 +428,7 @@
                     <navigationItem key="navigationItem" id="9CT-BI-LZq">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Qvm-5B-Ad7">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" identifier="UsuarioControler1" id="fIN-0L-q1W"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="UsuarioControler" id="fIN-0L-q1W"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -438,6 +442,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="dkh-GQ-B5I"/>
         <segue reference="fIN-0L-q1W"/>
     </inferredMetricsTieBreakers>
     <resources>

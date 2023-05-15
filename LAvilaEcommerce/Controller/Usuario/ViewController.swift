@@ -49,7 +49,7 @@ class ViewController: UIViewController {
 
     
     override func viewDidLoad() {
-        
+        //gaurdadmos el id del dropdwon
         txtIdRol.didSelect{selectedText , index ,id in
         self.IdRol = id
             }
@@ -64,6 +64,7 @@ class ViewController: UIViewController {
         if resultRol.Correct!{
             for objrol in resultRol.Objects!{
                 let rol = objrol as! Rol
+                //agregamos los datos de la bd en los arrays
                 txtIdRol.optionArray.append(rol.Nombre!)
                 txtIdRol.optionIds?.append(rol.idRol!)
             }
@@ -205,6 +206,7 @@ class ViewController: UIViewController {
                 txtUserNameOutlet.text! = ""
                 txtPasswordOutlet.text! = ""
                 txtIdRol.text! = ""
+                
                 
             }
             break

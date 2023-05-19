@@ -1,20 +1,24 @@
 PODS:
   - iOSDropDown (0.4.0)
+  - IQKeyboardManagerSwift (6.5.11)
   - SwipeCellKit (2.7.1)
 
 DEPENDENCIES:
   - iOSDropDown
+  - IQKeyboardManagerSwift
   - SwipeCellKit
 
 SPEC REPOS:
   trunk:
     - iOSDropDown
+    - IQKeyboardManagerSwift
     - SwipeCellKit
 
 SPEC CHECKSUMS:
   iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
   SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
 
-PODFILE CHECKSUM: 6c9eb619327c4172dcb1a0daea6885988fa260cd
+PODFILE CHECKSUM: d568b6a2a7922682fb2eb8a964d3166dfaee852a
 
 COCOAPODS: 1.8.4

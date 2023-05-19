@@ -15,6 +15,12 @@
 		7A54689129FC53A8006BA180 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54689029FC53A8006BA180 /* DBManager.swift */; };
 		7A54689329FC7481006BA180 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54689229FC7481006BA180 /* Usuario.swift */; };
 		7A57C9BD2A01D4F300FED5F5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57C9BC2A01D4F300FED5F5 /* Result.swift */; };
+		7A6C87C42A142CC400DB8E37 /* ProductosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87C22A142CC400DB8E37 /* ProductosCell.swift */; };
+		7A6C87C52A142CC400DB8E37 /* ProductosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C87C32A142CC400DB8E37 /* ProductosCell.xib */; };
+		7A6C87C82A142D8B00DB8E37 /* FormProductosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87C72A142D8B00DB8E37 /* FormProductosController.swift */; };
+		7A6C87CA2A142E4300DB8E37 /* GetAllProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87C92A142E4300DB8E37 /* GetAllProductoController.swift */; };
+		7A6C87CC2A14336C00DB8E37 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87CB2A14336C00DB8E37 /* Producto.swift */; };
+		7A6C87D12A143F7E00DB8E37 /* ProductosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87D02A143F7E00DB8E37 /* ProductosViewModel.swift */; };
 		7A75DB2D29FAFFAC0058795F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A75DB2C29FAFFAC0058795F /* AppDelegate.swift */; };
 		7A75DB2F29FAFFAC0058795F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A75DB2E29FAFFAC0058795F /* SceneDelegate.swift */; };
 		7A75DB3129FAFFAC0058795F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A75DB3029FAFFAC0058795F /* ViewController.swift */; };
@@ -26,6 +32,9 @@
 		7A76D2462A0AF348005325EA /* RolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A76D2442A0AF348005325EA /* RolCell.xib */; };
 		7A76D2482A0AF9D0005325EA /* RolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76D2472A0AF9D0005325EA /* RolViewModel.swift */; };
 		7A76D24B2A0B163B005325EA /* FormRolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A76D24A2A0B163B005325EA /* FormRolController.swift */; };
+		7A87E8EC2A15364C00E2363A /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8EB2A15364C00E2363A /* Departamento.swift */; };
+		7A87E8EE2A1536E000E2363A /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8ED2A1536E000E2363A /* Proveedor.swift */; };
+		7A87E8F12A15373000E2363A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8F02A15373000E2363A /* Area.swift */; };
 		7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */; };
 		9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +49,12 @@
 		7A54689029FC53A8006BA180 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		7A54689229FC7481006BA180 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		7A57C9BC2A01D4F300FED5F5 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		7A6C87C22A142CC400DB8E37 /* ProductosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCell.swift; sourceTree = "<group>"; };
+		7A6C87C32A142CC400DB8E37 /* ProductosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductosCell.xib; sourceTree = "<group>"; };
+		7A6C87C72A142D8B00DB8E37 /* FormProductosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormProductosController.swift; sourceTree = "<group>"; };
+		7A6C87C92A142E4300DB8E37 /* GetAllProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllProductoController.swift; sourceTree = "<group>"; };
+		7A6C87CB2A14336C00DB8E37 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		7A6C87D02A143F7E00DB8E37 /* ProductosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosViewModel.swift; sourceTree = "<group>"; };
 		7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAvilaEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A75DB2C29FAFFAC0058795F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A75DB2E29FAFFAC0058795F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +68,9 @@
 		7A76D2442A0AF348005325EA /* RolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RolCell.xib; sourceTree = "<group>"; };
 		7A76D2472A0AF9D0005325EA /* RolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolViewModel.swift; sourceTree = "<group>"; };
 		7A76D24A2A0B163B005325EA /* FormRolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRolController.swift; sourceTree = "<group>"; };
+		7A87E8EB2A15364C00E2363A /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
+		7A87E8ED2A1536E000E2363A /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
+		7A87E8F02A15373000E2363A /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
 		EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAvilaEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54A662A0A81E3D601A5B41B /* Pods-LAvilaEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.debug.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,6 +96,50 @@
 				45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A6C87C12A142C3800DB8E37 /* Productos */ = {
+			isa = PBXGroup;
+			children = (
+				7A6C87C22A142CC400DB8E37 /* ProductosCell.swift */,
+				7A6C87C32A142CC400DB8E37 /* ProductosCell.xib */,
+			);
+			path = Productos;
+			sourceTree = "<group>";
+		};
+		7A6C87C62A142D4A00DB8E37 /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				7A6C87C72A142D8B00DB8E37 /* FormProductosController.swift */,
+				7A6C87C92A142E4300DB8E37 /* GetAllProductoController.swift */,
+			);
+			path = Producto;
+			sourceTree = "<group>";
+		};
+		7A6C87CD2A14346B00DB8E37 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Usuario;
+			sourceTree = "<group>";
+		};
+		7A6C87CE2A14348600DB8E37 /* Rol */ = {
+			isa = PBXGroup;
+			children = (
+				7A76D2402A0AF233005325EA /* Rol.swift */,
+			);
+			path = Rol;
+			sourceTree = "<group>";
+		};
+		7A6C87CF2A14349000DB8E37 /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				7A6C87CB2A14336C00DB8E37 /* Producto.swift */,
+				7A87E8EB2A15364C00E2363A /* Departamento.swift */,
+				7A87E8ED2A1536E000E2363A /* Proveedor.swift */,
+				7A87E8F02A15373000E2363A /* Area.swift */,
+			);
+			path = Producto;
 			sourceTree = "<group>";
 		};
 		7A75DB2029FAFFAC0058795F = {
@@ -137,6 +199,7 @@
 			children = (
 				7A75DB3729FAFFAE0058795F /* LaunchScreen.storyboard */,
 				7A75DB3229FAFFAC0058795F /* Main.storyboard */,
+				7A6C87C12A142C3800DB8E37 /* Productos */,
 				7A76D2422A0AF29D005325EA /* Rol */,
 				7AF6F0B12A043E61007B5C29 /* Usuario */,
 			);
@@ -155,9 +218,11 @@
 		7AF6F0B22A043E99007B5C29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7A57C9BC2A01D4F300FED5F5 /* Result.swift */,
+				7A6C87CF2A14349000DB8E37 /* Producto */,
+				7A6C87CE2A14348600DB8E37 /* Rol */,
+				7A6C87CD2A14346B00DB8E37 /* Usuario */,
 				7A54689229FC7481006BA180 /* Usuario.swift */,
-				7A76D2402A0AF233005325EA /* Rol.swift */,
+				7A57C9BC2A01D4F300FED5F5 /* Result.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +232,7 @@
 			children = (
 				7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */,
 				7A76D2472A0AF9D0005325EA /* RolViewModel.swift */,
+				7A6C87D02A143F7E00DB8E37 /* ProductosViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -174,6 +240,7 @@
 		7AF6F0B42A043EC6007B5C29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7A6C87C62A142D4A00DB8E37 /* Producto */,
 				7A76D2492A0AFA68005325EA /* Rol */,
 				7AF6F0B52A043EE4007B5C29 /* Usuario */,
 			);
@@ -271,6 +338,7 @@
 				7A75DB3629FAFFAE0058795F /* Assets.xcassets in Resources */,
 				7A76D2462A0AF348005325EA /* RolCell.xib in Resources */,
 				7A75DB3429FAFFAC0058795F /* Main.storyboard in Resources */,
+				7A6C87C52A142CC400DB8E37 /* ProductosCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,16 +394,24 @@
 				7A76D2452A0AF348005325EA /* RolCell.swift in Sources */,
 				7A57C9BD2A01D4F300FED5F5 /* Result.swift in Sources */,
 				7A76D2482A0AF9D0005325EA /* RolViewModel.swift in Sources */,
+				7A6C87C82A142D8B00DB8E37 /* FormProductosController.swift in Sources */,
 				7A75DB3129FAFFAC0058795F /* ViewController.swift in Sources */,
 				7A4995A42A0C042500AA92F5 /* RolGetAllController.swift in Sources */,
 				7A542D362A02E8830068E3F1 /* GetAllUsuarioController.swift in Sources */,
 				7A76D2412A0AF233005325EA /* Rol.swift in Sources */,
 				7A75DB2D29FAFFAC0058795F /* AppDelegate.swift in Sources */,
+				7A6C87CC2A14336C00DB8E37 /* Producto.swift in Sources */,
+				7A87E8EE2A1536E000E2363A /* Proveedor.swift in Sources */,
 				7A542D392A02F1170068E3F1 /* UsuarioCell.swift in Sources */,
 				7A75DB2F29FAFFAC0058795F /* SceneDelegate.swift in Sources */,
+				7A6C87CA2A142E4300DB8E37 /* GetAllProductoController.swift in Sources */,
+				7A87E8EC2A15364C00E2363A /* Departamento.swift in Sources */,
+				7A6C87C42A142CC400DB8E37 /* ProductosCell.swift in Sources */,
 				7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */,
 				7A54689329FC7481006BA180 /* Usuario.swift in Sources */,
 				7A54689129FC53A8006BA180 /* DBManager.swift in Sources */,
+				7A6C87D12A143F7E00DB8E37 /* ProductosViewModel.swift in Sources */,
+				7A87E8F12A15373000E2363A /* Area.swift in Sources */,
 				7A76D24B2A0B163B005325EA /* FormRolController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

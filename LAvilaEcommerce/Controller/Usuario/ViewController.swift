@@ -10,6 +10,9 @@ import iOSDropDown
 
 class ViewController: UIViewController {
    
+    let imagenpicker : UIImagePickerController = UIImagePickerController()
+    
+    
     @IBOutlet weak var lblPasswordEtiqueta: UILabel!
     @IBOutlet weak var lblUsernameEtiqueta: UILabel!
     @IBOutlet weak var lblFechaEtiqueta: UILabel!
@@ -56,6 +59,8 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
+        //imagenpicker.delegate = self
+        
         txtIdRol.optionArray = []
 
         txtIdRol.optionIds = []
@@ -72,12 +77,8 @@ class ViewController: UIViewController {
             
         }
 
-        
-        
                 print(IdUsuario)
-        
-        
-        
+
         if IdUsuario == 0 {
             
             //self.performSegue(withIdentifier: "UsuarioControler1", sender: ViewController.self)
@@ -131,6 +132,7 @@ class ViewController: UIViewController {
 //        UsuarioViewModel.Delete(IdUsuario : IdUsuario)
 //
 //    }
+    
     
     @IBAction func btnRecuperarDatosAction() {
         

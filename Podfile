@@ -8,5 +8,6 @@ target 'LAvilaEcommerce' do
   # Pods for LAvilaEcommerce
 pod 'SwipeCellKit'
 pod 'iOSDropDown'
+pod 'IQKeyboardManagerSwift'
 
 end

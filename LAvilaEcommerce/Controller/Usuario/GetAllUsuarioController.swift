@@ -19,8 +19,9 @@ class GetAllUsuarioController: UITableViewController {
     var IdRol : Int = 0
     
     override func viewWillAppear(_ animated: Bool) {
-        UdpateUI()
+       
         tableView.reloadData()
+        UdpateUI()
     }
         
     override func viewDidLoad() {

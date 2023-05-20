@@ -21,8 +21,9 @@ class GetAllProductoController: UITableViewController {
     var IdArea : Int = 0
     
     override func viewWillAppear(_ animated: Bool) {
-        tableView.reloadData()
         UdpateProd()
+        tableView.reloadData()
+      
     }
 
     override func viewDidLoad() {
@@ -61,8 +62,13 @@ class GetAllProductoController: UITableViewController {
         if productos[indexPath.row].imagen == "" || productos[indexPath.row].imagen == nil {
             cell.ImagenView.image = UIImage(named: "DefaultProducto")
         }else{
-            //Convertir de base64 a data
-            // cell.ImagenView.image = UIImage(data: dataImage)
+            let string =  productos[indexPath.row].imagen
+                              
+                               
+                               let newImageData = Data(base64Encoded: string!)
+                               if let newImageData = newImageData {
+                                   cell.ImagenView.image = UIImage(data: newImageData)
+                               }
         }
 
         return cell

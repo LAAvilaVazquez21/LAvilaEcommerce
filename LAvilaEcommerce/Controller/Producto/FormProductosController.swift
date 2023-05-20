@@ -157,10 +157,12 @@ class FormProductosController :UIViewController{
                 case "Actualizar":
                     var producto = Producto()
                     
+                    producto.IdProducto = Int(txtidproducto.text!) ?? 0
                     producto.Nombre = txtNombreProducto.text!
                     producto.PrecioUnitario = Int(txtPrecioProducto.text!)
                     producto.Stock = Int(txtStockProducto.text!)
                     producto.Descripcion = txtDescripcionproducto.text!
+                    producto.imagen = convertToBase64()
                     producto.Proveedor = Proveedor()
                     producto.Proveedor?.IdProveedor = self.IdProveedor
                     producto.Departamento = Departamento()

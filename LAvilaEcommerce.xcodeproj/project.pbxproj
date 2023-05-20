@@ -35,6 +35,9 @@
 		7A87E8EC2A15364C00E2363A /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8EB2A15364C00E2363A /* Departamento.swift */; };
 		7A87E8EE2A1536E000E2363A /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8ED2A1536E000E2363A /* Proveedor.swift */; };
 		7A87E8F12A15373000E2363A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8F02A15373000E2363A /* Area.swift */; };
+		7ADC510B2A18124C00BAAB0C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7ADC510A2A18124C00BAAB0C /* FirebaseAuth */; };
+		7ADC510D2A18124C00BAAB0C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7ADC510C2A18124C00BAAB0C /* FirebaseCrashlytics */; };
+		7ADC510F2A18124C00BAAB0C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7ADC510E2A18124C00BAAB0C /* FirebaseStorage */; };
 		7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */; };
 		9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */; };
 /* End PBXBuildFile section */
@@ -82,6 +85,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A1E86FA2A0DAE6A000525D6 /* iOSDropDown.framework in Frameworks */,
+				7ADC510D2A18124C00BAAB0C /* FirebaseCrashlytics in Frameworks */,
+				7ADC510B2A18124C00BAAB0C /* FirebaseAuth in Frameworks */,
+				7ADC510F2A18124C00BAAB0C /* FirebaseStorage in Frameworks */,
 				9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +297,11 @@
 			dependencies = (
 			);
 			name = LAvilaEcommerce;
+			packageProductDependencies = (
+				7ADC510A2A18124C00BAAB0C /* FirebaseAuth */,
+				7ADC510C2A18124C00BAAB0C /* FirebaseCrashlytics */,
+				7ADC510E2A18124C00BAAB0C /* FirebaseStorage */,
+			);
 			productName = LAvilaEcommerce;
 			productReference = 7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */;
 			productType = "com.apple.product-type.application";
@@ -319,6 +330,9 @@
 				Base,
 			);
 			mainGroup = 7A75DB2029FAFFAC0058795F;
+			packageReferences = (
+				7ADC51092A18124C00BAAB0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7A75DB2A29FAFFAC0058795F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -632,6 +646,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7ADC51092A18124C00BAAB0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7ADC510A2A18124C00BAAB0C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ADC51092A18124C00BAAB0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7ADC510C2A18124C00BAAB0C /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ADC51092A18124C00BAAB0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		7ADC510E2A18124C00BAAB0C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7ADC51092A18124C00BAAB0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A75DB2129FAFFAC0058795F /* Project object */;
 }

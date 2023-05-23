@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0776182A1BCB77005D659F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0776172A1BCB77005D659F /* Login.swift */; };
+		7A07761B2A1BEEFC005D659F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */; };
+		7A07761D2A1BF523005D659F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07761C2A1BF523005D659F /* LoginController.swift */; };
+		7A07761F2A1BFC8E005D659F /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07761E2A1BFC8E005D659F /* RegistroController.swift */; };
 		7A1E86FA2A0DAE6A000525D6 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */; };
 		7A4995A42A0C042500AA92F5 /* RolGetAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */; };
 		7A542D362A02E8830068E3F1 /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A542D352A02E8820068E3F1 /* GetAllUsuarioController.swift */; };
@@ -44,6 +48,10 @@
 
 /* Begin PBXFileReference section */
 		45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.release.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.release.xcconfig"; sourceTree = "<group>"; };
+		7A0776172A1BCB77005D659F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A07761C2A1BF523005D659F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		7A07761E2A1BFC8E005D659F /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
 		7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolGetAllController.swift; sourceTree = "<group>"; };
 		7A542D352A02E8820068E3F1 /* GetAllUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuarioController.swift; sourceTree = "<group>"; };
@@ -104,6 +112,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7A0776192A1BCC7C005D659F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7A07761C2A1BF523005D659F /* LoginController.swift */,
+				7A07761E2A1BFC8E005D659F /* RegistroController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		7A6C87C12A142C3800DB8E37 /* Productos */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +161,7 @@
 				7A87E8EB2A15364C00E2363A /* Departamento.swift */,
 				7A87E8ED2A1536E000E2363A /* Proveedor.swift */,
 				7A87E8F02A15373000E2363A /* Area.swift */,
+				7A0776172A1BCB77005D659F /* Login.swift */,
 			);
 			path = Producto;
 			sourceTree = "<group>";
@@ -151,6 +169,7 @@
 		7A75DB2029FAFFAC0058795F = {
 			isa = PBXGroup;
 			children = (
+				7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */,
 				7A75DB2B29FAFFAC0058795F /* LAvilaEcommerce */,
 				7A75DB2A29FAFFAC0058795F /* Products */,
 				46D862CDDA83749396531758 /* Pods */,
@@ -246,6 +265,7 @@
 		7AF6F0B42A043EC6007B5C29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7A0776192A1BCC7C005D659F /* Login */,
 				7A6C87C62A142D4A00DB8E37 /* Producto */,
 				7A76D2492A0AFA68005325EA /* Rol */,
 				7AF6F0B52A043EE4007B5C29 /* Usuario */,
@@ -353,6 +373,7 @@
 				7A76D2462A0AF348005325EA /* RolCell.xib in Resources */,
 				7A75DB3429FAFFAC0058795F /* Main.storyboard in Resources */,
 				7A6C87C52A142CC400DB8E37 /* ProductosCell.xib in Resources */,
+				7A07761B2A1BEEFC005D659F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,10 +439,13 @@
 				7A87E8EE2A1536E000E2363A /* Proveedor.swift in Sources */,
 				7A542D392A02F1170068E3F1 /* UsuarioCell.swift in Sources */,
 				7A75DB2F29FAFFAC0058795F /* SceneDelegate.swift in Sources */,
+				7A07761D2A1BF523005D659F /* LoginController.swift in Sources */,
 				7A6C87CA2A142E4300DB8E37 /* GetAllProductoController.swift in Sources */,
+				7A07761F2A1BFC8E005D659F /* RegistroController.swift in Sources */,
 				7A87E8EC2A15364C00E2363A /* Departamento.swift in Sources */,
 				7A6C87C42A142CC400DB8E37 /* ProductosCell.swift in Sources */,
 				7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */,
+				7A0776182A1BCB77005D659F /* Login.swift in Sources */,
 				7A54689329FC7481006BA180 /* Usuario.swift in Sources */,
 				7A54689129FC53A8006BA180 /* DBManager.swift in Sources */,
 				7A6C87D12A143F7E00DB8E37 /* ProductosViewModel.swift in Sources */,

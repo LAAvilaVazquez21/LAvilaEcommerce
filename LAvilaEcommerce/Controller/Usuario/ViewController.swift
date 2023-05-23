@@ -56,7 +56,6 @@ class ViewController: UIViewController {
         txtIdRol.didSelect{selectedText , index ,id in
         self.IdRol = id
             }
-        
         super.viewDidLoad()
         
         //imagenpicker.delegate = self

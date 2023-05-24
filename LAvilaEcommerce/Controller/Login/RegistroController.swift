@@ -69,26 +69,26 @@ class RegistroController: UIViewController {
         let contraseña = passwordTxt.text!
         
         Auth.auth().createUser(withEmail: correo, password: contraseña){ [weak self] authResult, error in
-            guard let strongSelf = self else { return }
+            guard let strongSelf = self else{return}
             
-            //            if let ex = error{
-            //                let alert = UIAlertController(title: "Mensaje", message: "No se encontro su usuario", preferredStyle: .alert)
-            //                let action = UIAlertAction(title: "Aceptar", style: .default)
-            //                alert.addAction(action)
-            //                self!.present(alert, animated: true, completion: nil)
-            //                self!.usuarioTxt.text! = ""
-            //                self!.passwordTxt.text! = ""
-            //            }
+            
             if let correct = authResult{
                 
-                let alert = UIAlertController(title: "Mensaje", message: "Se agrego correctamente el usuario", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Mensaje", message: "Usuario Registrado", preferredStyle: .alert)
                 let action = UIAlertAction(title: "Aceptar", style: .default)
                 alert.addAction(action)
                 self!.present(alert, animated: true, completion: nil)
+                
                 self!.usuarioTxt.text! = ""
                 self!.passwordTxt.text! = ""
                 self!.password2Txt.text! = ""
+                
+                
+                
             }
+            self?.performSegue(withIdentifier: "tapbarregistar", sender: self)
         }
+        
+        
     }
 }

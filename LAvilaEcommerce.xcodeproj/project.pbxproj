@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10C16E072A1DB31A0023CC50 /* DepartamentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */; };
 		7A01C56C2A1D52F6000C215C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56B2A1D52F6000C215C /* FirebaseAuth */; };
 		7A01C56E2A1D52F6000C215C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56D2A1D52F6000C215C /* FirebaseCrashlytics */; };
 		7A01C5702A1D52F6000C215C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56F2A1D52F6000C215C /* FirebaseStorage */; };
@@ -55,6 +56,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoViewModel.swift; sourceTree = "<group>"; };
 		45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.release.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.release.xcconfig"; sourceTree = "<group>"; };
 		7A01C5742A1D728F000C215C /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
 		7A01C5752A1D728F000C215C /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
@@ -200,6 +202,8 @@
 		7A6C87CD2A14346B00DB8E37 /* Usuario */ = {
 			isa = PBXGroup;
 			children = (
+				7A57C9BC2A01D4F300FED5F5 /* Result.swift */,
+				7A54689229FC7481006BA180 /* Usuario.swift */,
 			);
 			path = Usuario;
 			sourceTree = "<group>";
@@ -306,8 +310,6 @@
 				7A6C87CF2A14349000DB8E37 /* Producto */,
 				7A6C87CE2A14348600DB8E37 /* Rol */,
 				7A6C87CD2A14346B00DB8E37 /* Usuario */,
-				7A54689229FC7481006BA180 /* Usuario.swift */,
-				7A57C9BC2A01D4F300FED5F5 /* Result.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,6 +321,7 @@
 				7A76D2472A0AF9D0005325EA /* RolViewModel.swift */,
 				7A6C87D02A143F7E00DB8E37 /* ProductosViewModel.swift */,
 				7A01C5862A1D9950000C215C /* AreaViewModel.swift */,
+				10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 				7A01C5852A1D966C000C215C /* ProductosColeccionController.swift in Sources */,
 				7A76D2482A0AF9D0005325EA /* RolViewModel.swift in Sources */,
 				7A6C87C82A142D8B00DB8E37 /* FormProductosController.swift in Sources */,
+				10C16E072A1DB31A0023CC50 /* DepartamentoViewModel.swift in Sources */,
 				7A75DB3129FAFFAC0058795F /* ViewController.swift in Sources */,
 				7A4995A42A0C042500AA92F5 /* RolGetAllController.swift in Sources */,
 				7A542D362A02E8830068E3F1 /* GetAllUsuarioController.swift in Sources */,

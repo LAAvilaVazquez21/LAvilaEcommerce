@@ -60,34 +60,27 @@ class FormProductosController :UIViewController{
         txtIdProveedorP.optionArray = []
         txtIdProveedorP.optionIds = []
         
-     
-        let resultproducto = ProductosViewModel.GetAll()
-        if resultproducto.Correct!{
-            for objprod in resultproducto.Objects!{
-                let producto = objprod as! Producto
-               
+        let resultProveedor = ProductosViewModel.GetAllProveedor()
+        if resultProveedor.Correct!{
+            for objproveedor in resultProveedor.Objects!{
+                let proveedor = objproveedor as! Proveedor
                 //agregamos los datos de la bd en los arrays
-                txtIdProveedorP.optionArray.append(producto.Proveedor?.Nombre! ?? "")
-                txtIdProveedorP.optionIds?.append(producto.Proveedor?.IdProveedor ?? 0)
-                
+                txtIdProveedorP.optionArray.append(proveedor.Nombre!)
+                txtIdProveedorP.optionIds?.append(proveedor.IdProveedor!)
             }
-            
         }
         
         txtiddepartamento.optionArray = []
         txtiddepartamento.optionIds = []
         
-        let resultproducto1 = ProductosViewModel.GetAll()
-        if resultproducto1.Correct!{
-            for objproddep in resultproducto.Objects!{
-                let productodepartamento = objproddep as! Producto
-               
+        let resultDepartamento = ProductosViewModel.GetAllDepartamento()
+        if resultDepartamento.Correct!{
+            for objdepartamento in resultDepartamento.Objects!{
+                let departamento = objdepartamento as! Departamento
                 //agregamos los datos de la bd en los arrays
-                txtiddepartamento.optionArray.append(productodepartamento.Departamento?.Nombre ?? "")
-                txtiddepartamento.optionIds?.append(productodepartamento.Departamento?.IdDepartamento ?? 0)
-                
+                txtiddepartamento.optionArray.append(departamento.Nombre!)
+                txtiddepartamento.optionIds?.append(departamento.IdDepartamento!)
             }
-            
         }
         
         print(IdProducto)

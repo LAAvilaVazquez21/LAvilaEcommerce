@@ -429,6 +429,7 @@
                         <outlet property="itemArea" destination="g40-iI-TNC" id="ay5-pi-S9K"/>
                         <outlet property="txtSearch" destination="ZnY-2Q-3gw" id="rwm-PJ-O8j"/>
                         <segue destination="v9S-o5-epn" kind="show" identifier="SegueDepartamento" id="fZ7-3I-SH1"/>
+                        <segue destination="UmF-ef-OFV" kind="show" identifier="segueProductosArea" id="KjN-sf-8FX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3zh-Yb-rOJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -466,17 +467,18 @@
                     </collectionView>
                     <navigationItem key="navigationItem" id="SBv-hH-Wx6"/>
                     <connections>
-                        <segue destination="UmF-ef-OFV" kind="show" id="q9S-Jh-Ydx"/>
+                        <outlet property="itemdepartamento" destination="opL-LL-1Nl" id="IJl-Pf-syY"/>
+                        <segue destination="UmF-ef-OFV" kind="show" identifier="SeguesProductos" id="q9S-Jh-Ydx"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wwb-wE-w1V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="166" y="2146"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Productos Coleccion Controller-->
         <scene sceneID="NOQ-5g-zhQ">
             <objects>
-                <collectionViewController id="UmF-ef-OFV" sceneMemberID="viewController">
+                <collectionViewController id="UmF-ef-OFV" customClass="ProductosColeccionController" customModule="LAvilaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="moG-ON-oUO">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -503,6 +505,9 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="Vk4-79-Ggg"/>
+                    <connections>
+                        <outlet property="itemprod" destination="moG-ON-oUO" id="27T-Ng-akL"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgn-sm-awu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -792,42 +797,42 @@
                                 <rect key="frame" x="50" y="94" width="330" height="694"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ROL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WoC-Ab-87w">
-                                        <rect key="frame" x="0.0" y="0.0" width="330" height="45.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="41.666666666666664"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="34"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Id" textAlignment="natural" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPH-LT-zDD">
-                                        <rect key="frame" x="0.0" y="95.666666666666657" width="330" height="28.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="91.666666666666657" width="330" height="25.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STR-CY-IJ9">
-                                        <rect key="frame" x="0.0" y="174" width="330" height="30"/>
+                                        <rect key="frame" x="0.0" y="167.33333333333331" width="330" height="27.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0J-f7-1ZQ">
-                                        <rect key="frame" x="0.0" y="254" width="330" height="24"/>
+                                        <rect key="frame" x="0.0" y="244.66666666666669" width="330" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y66-PZ-NzD">
-                                        <rect key="frame" x="0.0" y="328" width="330" height="35"/>
+                                        <rect key="frame" x="0.0" y="344.66666666666669" width="330" height="39.666666666666686"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Nombre" textAlignment="natural" minimumFontSize="28" translatesAutoresizingMaskIntoConstraints="NO" id="pWG-D6-m3u">
-                                        <rect key="frame" x="0.0" y="413" width="330" height="30"/>
+                                        <rect key="frame" x="0.0" y="434.33333333333337" width="330" height="27.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdh-yI-s5N">
-                                        <rect key="frame" x="0.0" y="493" width="330" height="201"/>
+                                        <rect key="frame" x="0.0" y="511.66666666666657" width="330" height="182.33333333333331"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1246,6 +1251,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="9o6-UU-zGV"/>
         <segue reference="dkh-GQ-B5I"/>
+        <segue reference="KjN-sf-8FX"/>
         <segue reference="xZk-8G-ACS"/>
         <segue reference="fIN-0L-q1W"/>
     </inferredMetricsTieBreakers>

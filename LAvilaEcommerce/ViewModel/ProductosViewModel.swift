@@ -218,73 +218,73 @@ class ProductosViewModel{
     }
     
     static func GetAllDepartamento() -> Result{
-        var context = DBManager()
-        var result = Result()
-        let query = "SELECT IdDepartamento, Nombre FROM Departamento"
-        var statement : OpaquePointer?
-        do{
-            if try sqlite3_prepare_v2(context.db, query, -1, &statement, nil) == SQLITE_OK{
-                result.Objects = []
-                while try sqlite3_step(statement) == SQLITE_ROW {
-                    var departamento = Departamento()
-                    departamento.IdDepartamento = Int(sqlite3_column_int(statement, 0))
-                    departamento.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
-                    
-                    //                    producto.Departamento = Departamento()
-                    //                    producto.Departamento?.IdDepartamento = Int(sqlite3_column_int(statement, 8))
-                    //                    producto.Departamento?.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 9)))
-                    //
-                    
-                    result.Objects?.append(departamento)
-                }
-                result.Correct = true
-            }else  {
-                result.Correct = false
-                result.ErrorMessage = "Ocurrio un error"
-            }
-        }
-        catch let ex{
-            result.Correct = false
-            result.ErrorMessage = ex.localizedDescription //Ex.Message
-            result.Ex = ex
-        }
-        sqlite3_finalize(statement)
-        sqlite3_close(context.db)
-        return result
-    }
-    
-    static func GetAllProveedor() -> Result{
-        var context = DBManager()
-        var result = Result()
-        let query = "SELECT IdProveedor, Nombre FROM Proveedor"
-        var statement : OpaquePointer?
-        do{
-            if try sqlite3_prepare_v2(context.db, query, -1, &statement, nil) == SQLITE_OK{
-                result.Objects = []
-                while try sqlite3_step(statement) == SQLITE_ROW {
-                    var proveedor = Proveedor()
-                    proveedor.IdProveedor = Int(sqlite3_column_int(statement, 0))
-                    proveedor.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
-                    
-                    
-                    
-                    result.Objects?.append(proveedor)
-                }
-                result.Correct = true
-            }else  {
-                result.Correct = false
-                result.ErrorMessage = "Ocurrio un error"
-            }
-        }
-        catch let ex{
-            result.Correct = false
-            result.ErrorMessage = ex.localizedDescription //Ex.Message
-            result.Ex = ex
-        }
-        sqlite3_finalize(statement)
-        sqlite3_close(context.db)
-        return result
-    }
+           var context = DBManager()
+           var result = Result()
+           let query = "SELECT IdDepartamento, Nombre FROM Departamento"
+           var statement : OpaquePointer?
+           do{
+               if try sqlite3_prepare_v2(context.db, query, -1, &statement, nil) == SQLITE_OK{
+                   result.Objects = []
+                   while try sqlite3_step(statement) == SQLITE_ROW {
+                       var departamento = Departamento()
+                       departamento.IdDepartamento = Int(sqlite3_column_int(statement, 0))
+                       departamento.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
+                       
+                       //                    producto.Departamento = Departamento()
+                       //                    producto.Departamento?.IdDepartamento = Int(sqlite3_column_int(statement, 8))
+                       //                    producto.Departamento?.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 9)))
+                       //
+                       
+                       result.Objects?.append(departamento)
+                   }
+                   result.Correct = true
+               }else  {
+                   result.Correct = false
+                   result.ErrorMessage = "Ocurrio un error"
+               }
+           }
+           catch let ex{
+               result.Correct = false
+               result.ErrorMessage = ex.localizedDescription //Ex.Message
+               result.Ex = ex
+           }
+           sqlite3_finalize(statement)
+           sqlite3_close(context.db)
+           return result
+       }
+       
+       static func GetAllProveedor() -> Result{
+           var context = DBManager()
+           var result = Result()
+           let query = "SELECT IdProveedor, Nombre FROM Proveedor"
+           var statement : OpaquePointer?
+           do{
+               if try sqlite3_prepare_v2(context.db, query, -1, &statement, nil) == SQLITE_OK{
+                   result.Objects = []
+                   while try sqlite3_step(statement) == SQLITE_ROW {
+                       var proveedor = Proveedor()
+                       proveedor.IdProveedor = Int(sqlite3_column_int(statement, 0))
+                       proveedor.Nombre = String(describing: String(cString: sqlite3_column_text(statement, 1)))
+                       
+                       
+                       
+                       result.Objects?.append(proveedor)
+                   }
+                   result.Correct = true
+               }else  {
+                   result.Correct = false
+                   result.ErrorMessage = "Ocurrio un error"
+               }
+           }
+           catch let ex{
+               result.Correct = false
+               result.ErrorMessage = ex.localizedDescription //Ex.Message
+               result.Ex = ex
+           }
+           sqlite3_finalize(statement)
+           sqlite3_close(context.db)
+           return result
+       }
     
     
     

@@ -94,6 +94,21 @@
                   endingLineNumber = "118"
                   offsetFromSymbolStart = "8164">
                </Location>
+               <Location
+                  uuid = "7082CD60-2114-49ED-A9CC-4417BBFBE70E - 5d19a7f7feed4119"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "8164">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -181,6 +196,21 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "4764">
+               </Location>
+               <Location
+                  uuid = "0C108EC1-655F-45B4-8988-6744974365ED - 5d19a7f7feed434a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "101"
@@ -289,6 +319,21 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "171"
+                  endingLineNumber = "171"
+                  offsetFromSymbolStart = "2904">
+               </Location>
+               <Location
+                  uuid = "E6D22194-BAAF-49B2-BAA7-8E9637875310 - 687e62f9d9a0d82e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "171"
@@ -418,6 +463,21 @@
                   endingLineNumber = "174"
                   offsetFromSymbolStart = "22840">
                </Location>
+               <Location
+                  uuid = "41883D00-F216-4F01-BA69-17D863E6B6B0 - 687e62f9d9a0d8cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "22840">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -541,6 +601,21 @@
                   endingLineNumber = "173"
                   offsetFromSymbolStart = "22592">
                </Location>
+               <Location
+                  uuid = "E4A58AFF-8419-4432-B3F1-51293EFD3D27 - 687e62f9d9a0d8e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "22592">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -628,6 +703,21 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "7692">
+               </Location>
+               <Location
+                  uuid = "0089456F-B562-4C93-A777-DC27926288FD - 5d19a7f7feed417c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "115"
@@ -772,6 +862,21 @@
                   endingLineNumber = "195"
                   offsetFromSymbolStart = "8088">
                </Location>
+               <Location
+                  uuid = "18632E10-589E-47D8-AD25-ACD5CC5EA639 - 687e62f9d9a0dd36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "8088">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -889,6 +994,21 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "8228">
+               </Location>
+               <Location
+                  uuid = "98887AC0-05A6-4116-A4C5-FA2E539B7D89 - 687e62f9d9a0ddf0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "197"
@@ -1078,6 +1198,36 @@
                   endingLineNumber = "183"
                   offsetFromSymbolStart = "4568">
                </Location>
+               <Location
+                  uuid = "45F6772E-4147-40B0-B821-794462B1DAD0 - 687e62f9d9a0dba2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "4280">
+               </Location>
+               <Location
+                  uuid = "45F6772E-4147-40B0-B821-794462B1DAD0 - 687e62f9d9a0dba2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "4568">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1195,6 +1345,21 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "17108">
+               </Location>
+               <Location
+                  uuid = "4EC319EB-3592-4445-9958-0C19F3520E04 - 687e62f9d9a0d137"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "226"
@@ -1339,6 +1504,21 @@
                   endingLineNumber = "224"
                   offsetFromSymbolStart = "17068">
                </Location>
+               <Location
+                  uuid = "48319B19-C8B8-4628-B3CB-7533262C9CCC - 687e62f9d9a0d175"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "17068">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1462,6 +1642,21 @@
                   endingLineNumber = "222"
                   offsetFromSymbolStart = "16128">
                </Location>
+               <Location
+                  uuid = "759A1A10-3300-4705-B940-7BA3C2EA1FBC - 687e62f9d9a0debb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "16128">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1579,6 +1774,21 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "15656">
+               </Location>
+               <Location
+                  uuid = "2ACACAF7-3034-4E43-8DA2-534F284619DD - 687e62f9d9a0ded8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "221"
@@ -1798,6 +2008,36 @@
                   endingLineNumber = "223"
                   offsetFromSymbolStart = "16812">
                </Location>
+               <Location
+                  uuid = "9F317A67-78DE-416F-940B-D6037762AF62 - 687e62f9d9a0de9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "16600">
+               </Location>
+               <Location
+                  uuid = "9F317A67-78DE-416F-940B-D6037762AF62 - 687e62f9d9a0de9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "16812">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -1900,6 +2140,21 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "229"
+                  endingLineNumber = "229"
+                  offsetFromSymbolStart = "17248">
+               </Location>
+               <Location
+                  uuid = "1302DE1B-8AE5-4AA7-8662-2A678243C34C - 687e62f9d9a0d1d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.ViewController.btnRecuperarDatosAction() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Usuario/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "229"
@@ -2139,6 +2394,21 @@
                   endingLineNumber = "146"
                   offsetFromSymbolStart = "3444">
                </Location>
+               <Location
+                  uuid = "C5B44AA8-3C47-4A93-9C6A-A0FBE0C98EB5 - 5bd779e754590a53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.btnRecuperarDatos(__C.UIButton) -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "3884">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -2216,6 +2486,21 @@
                   startingLineNumber = "134"
                   endingLineNumber = "134"
                   offsetFromSymbolStart = "1080">
+               </Location>
+               <Location
+                  uuid = "34B82686-2D9A-41E4-8FBD-D26D9CB09BAE - 5bd779e754590ba1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.btnRecuperarDatos(__C.UIButton) -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "3132">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2310,6 +2595,21 @@
                   endingLineNumber = "135"
                   offsetFromSymbolStart = "1552">
                </Location>
+               <Location
+                  uuid = "A382D284-CAC1-469B-8351-09FC1592582B - 5bd779e754590b80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.btnRecuperarDatos(__C.UIButton) -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "3268">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -2387,6 +2687,21 @@
                   startingLineNumber = "136"
                   endingLineNumber = "136"
                   offsetFromSymbolStart = "2080">
+               </Location>
+               <Location
+                  uuid = "B82226DB-C7C3-4DE6-B0AA-6A859D3B6A93 - 5bd779e754590be7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.btnRecuperarDatos(__C.UIButton) -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "3308">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2481,6 +2796,21 @@
                   endingLineNumber = "139"
                   offsetFromSymbolStart = "3060">
                </Location>
+               <Location
+                  uuid = "04AB91C4-D298-4439-AAA6-41DB8B39F61F - 5bd779e754590b04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.btnRecuperarDatos(__C.UIButton) -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "3444">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -2574,6 +2904,21 @@
                   endingLineNumber = "143"
                   offsetFromSymbolStart = "3308">
                </Location>
+               <Location
+                  uuid = "598409A5-7833-487E-9B4D-320BAD6E08AD - 5bd779e754590a88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.btnRecuperarDatos(__C.UIButton) -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "3840">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -2666,6 +3011,21 @@
                   startingLineNumber = "141"
                   endingLineNumber = "141"
                   offsetFromSymbolStart = "3132">
+               </Location>
+               <Location
+                  uuid = "66A84D94-2364-4FE1-8683-851C7BE64CBF - 5bd779e754590b4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.btnRecuperarDatos(__C.UIButton) -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "3644">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2858,6 +3218,21 @@
                   endingLineNumber = "196"
                   offsetFromSymbolStart = "124">
                </Location>
+               <Location
+                  uuid = "5D359F6F-A79E-4C55-9904-CA67CA7650E6 - bde05f915afcc677"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.convertToBase64() -&gt; Swift.String"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "72">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -2936,6 +3311,21 @@
                   startingLineNumber = "196"
                   endingLineNumber = "196"
                   offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "5F8378EF-E065-4EB9-976F-DA9B26D2CE4C - bde05f915afcc5a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.FormProductosController.convertToBase64() -&gt; Swift.String"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Producto/FormProductosController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "612">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3322,22 +3712,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0588EB81-3559-48FA-8CD9-EC8394CDFCEF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/ViewModel/UsuarioViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
-            landmarkName = "GetAll()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "FDA8678B-E1CB-4B1F-9252-F5C49ACA6C66"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -3404,6 +3778,36 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1680">
+               </Location>
+               <Location
+                  uuid = "FDA8678B-E1CB-4B1F-9252-F5C49ACA6C66 - c7b2c699161b9c2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.LoginController.btnlogging() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1468">
+               </Location>
+               <Location
+                  uuid = "FDA8678B-E1CB-4B1F-9252-F5C49ACA6C66 - c7b2c699161b9c2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.LoginController.btnlogging() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/LoginController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "64"
@@ -3488,6 +3892,36 @@
                   endingLineNumber = "65"
                   offsetFromSymbolStart = "2144">
                </Location>
+               <Location
+                  uuid = "5A1D8A20-70E5-4F27-BD10-6E8142963B77 - c7b2c699161b9c08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.LoginController.btnlogging() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1932">
+               </Location>
+               <Location
+                  uuid = "5A1D8A20-70E5-4F27-BD10-6E8142963B77 - c7b2c699161b9c08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.LoginController.btnlogging() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "2144">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -3560,6 +3994,36 @@
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "3C8F2E58-8546-45DC-9345-4718BD36C7CF - 8a14b6a428951cc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LAvilaEcommerce.LoginController.btnlogging() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/LoginController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "3C8F2E58-8546-45DC-9345-4718BD36C7CF - 8a14b6a428951cc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LAvilaEcommerce.LoginController.btnlogging() -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/LoginController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "71"
@@ -3652,6 +4116,22 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "7EDEA218-1329-4763-BB10-82142BF59E65"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LAvilaEcommerce/Controller/Login/RegistroController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "btnregistrar(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             uuid = "0267FC0A-E09D-4366-B9C4-ED9CE610F59C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -3693,6 +4173,21 @@
                   startingLineNumber = "37"
                   endingLineNumber = "37"
                   offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "0267FC0A-E09D-4366-B9C4-ED9CE610F59C - e43b24fac1d2d731"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerce.RegistroController.btnregistrar(__C.UIButton) -&gt; ()"
+                  moduleName = "LAvilaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/RegistroController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "116">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3758,14 +4253,14 @@
                   offsetFromSymbolStart = "2384">
                </Location>
                <Location
-                  uuid = "F83EC3E3-FEF4-464D-8C3D-FA1E27461DE2 - ae8a0b343d6a3d5e"
+                  uuid = "F83EC3E3-FEF4-464D-8C3D-FA1E27461DE2 - e43b24fac1d2ca08"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "LAvilaEcommerce.RegistroController.btnregistrar(__C.UIButton) -&gt; ()"
                   moduleName = "LAvilaEcommerce"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/RegistroController.swift"
+                  urlString = "file:///Users/macbookmba16/Documents/LAvilaEcommerce/LAvilaEcommerce/Controller/Login/RegistroController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "60"
@@ -3773,6 +4268,22 @@
                   offsetFromSymbolStart = "2156">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DB34122-F8F9-46C0-8FF5-BB49977A5DEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LAvilaEcommerce/Controller/ProductoCollectionController/ProductosColeccionController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

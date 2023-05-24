@@ -51,6 +51,8 @@
 		7A87E8EC2A15364C00E2363A /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8EB2A15364C00E2363A /* Departamento.swift */; };
 		7A87E8EE2A1536E000E2363A /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8ED2A1536E000E2363A /* Proveedor.swift */; };
 		7A87E8F12A15373000E2363A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8F02A15373000E2363A /* Area.swift */; };
+		7AC81E902A1ED092007C416C /* ProductosCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */; };
+		7AC81E922A1ED0CB007C416C /* ProductosViewModelLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */; };
 		7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */; };
 		9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */; };
 /* End PBXBuildFile section */
@@ -100,6 +102,8 @@
 		7A87E8EB2A15364C00E2363A /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
 		7A87E8ED2A1536E000E2363A /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
 		7A87E8F02A15373000E2363A /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCardViewModel.swift; sourceTree = "<group>"; };
+		7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosViewModelLike.swift; sourceTree = "<group>"; };
 		7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
 		EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAvilaEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54A662A0A81E3D601A5B41B /* Pods-LAvilaEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.debug.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
@@ -256,6 +260,7 @@
 				7AF6F0B22A043E99007B5C29 /* Model */,
 				7AF6F0AE2A043D59007B5C29 /* View */,
 				7A75DB2C29FAFFAC0058795F /* AppDelegate.swift */,
+				7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */,
 				7A75DB2E29FAFFAC0058795F /* SceneDelegate.swift */,
 				7A75DB3529FAFFAE0058795F /* Assets.xcassets */,
 				7A75DB3A29FAFFAE0058795F /* Info.plist */,
@@ -317,11 +322,12 @@
 		7AF6F0B32A043EB5007B5C29 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */,
 				7A76D2472A0AF9D0005325EA /* RolViewModel.swift */,
 				7A6C87D02A143F7E00DB8E37 /* ProductosViewModel.swift */,
 				7A01C5862A1D9950000C215C /* AreaViewModel.swift */,
 				10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */,
+				7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */,
+				7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -496,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A76D2452A0AF348005325EA /* RolCell.swift in Sources */,
+				7AC81E922A1ED0CB007C416C /* ProductosViewModelLike.swift in Sources */,
 				7A01C57B2A1D8D53000C215C /* ProductosCardViewCell.swift in Sources */,
 				7A57C9BD2A01D4F300FED5F5 /* Result.swift in Sources */,
 				7A01C5852A1D966C000C215C /* ProductosColeccionController.swift in Sources */,
@@ -515,6 +522,7 @@
 				7A75DB2F29FAFFAC0058795F /* SceneDelegate.swift in Sources */,
 				7A07761D2A1BF523005D659F /* LoginController.swift in Sources */,
 				7A01C5872A1D9950000C215C /* AreaViewModel.swift in Sources */,
+				7AC81E902A1ED092007C416C /* ProductosCardViewModel.swift in Sources */,
 				7A01C57F2A1D9480000C215C /* AreaController.swift in Sources */,
 				7A6C87CA2A142E4300DB8E37 /* GetAllProductoController.swift in Sources */,
 				7A07761F2A1BFC8E005D659F /* RegistroController.swift in Sources */,

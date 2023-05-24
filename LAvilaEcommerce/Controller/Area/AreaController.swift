@@ -19,6 +19,7 @@ class AreaController: UIViewController {
     var area : [Area] = []
     var IdArea : Int = 0
     var Id : Int = 0
+    var guardardato : String = ""
     //let dbManager = DBManger()
 
     
@@ -35,7 +36,16 @@ class AreaController: UIViewController {
     
 
     @IBAction func btnSearchProductos(_ sender: UIButton) {
-    }
+        
+        guard txtSearch.text != "" else {
+            //ddletiqueta.text =  "El campo no puede ser vacio"
+            txtSearch.layer.borderColor = UIColor.red.cgColor
+            txtSearch.layer.borderWidth = 2
+            return
+        }
+        guardardato = txtSearch.text!
+        
+        self.performSegue(withIdentifier: "segueProductosArea", sender: self)    }
     
     
 
@@ -77,11 +87,14 @@ extension AreaController :  UICollectionViewDelegate, UICollectionViewDataSource
         }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-               //controlar que hacer antes de ir a la siguiente vista
-               if segue.identifier == "SegueDepartamento"{
-                   let formControl = segue.destination as! DepartamentoController
-                   formControl.IdArea = Id
-                   
-               }
-           }
+        //controlar que hacer antes de ir a la siguiente vista
+        if segue.identifier == "SegueDepartamento"{
+            let formControl = segue.destination as! DepartamentoController
+               formControl.IdArea = Id
+            
+        }else{
+            let formcontrol1 = segue.destination as! ProductosColeccionController
+            formcontrol1.datotxt = guardardato
+        }
+    }
 }

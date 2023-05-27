@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AreaCardVentasCell" id="gTV-IL-0wX" customClass="AreaCardVentasCell" customModule="LAvilaEcommerceVenta" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="141" height="164"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="141" height="164"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="4lu-GW-jFI">
+                        <rect key="frame" x="0.0" y="0.0" width="141" height="164"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I2V-rv-qnR">
+                                <rect key="frame" x="12.666666666666671" y="0.0" width="116.00000000000001" height="107"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZq-W3-pLg">
+                                <rect key="frame" x="36.666666666666664" y="116" width="67.666666666666686" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4lu-GW-jFI" secondAttribute="bottom" id="Vl0-9q-o5G"/>
+                <constraint firstAttribute="trailing" secondItem="4lu-GW-jFI" secondAttribute="trailing" id="eWs-G0-bL5"/>
+                <constraint firstItem="4lu-GW-jFI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="nzY-Eg-6hA"/>
+                <constraint firstItem="4lu-GW-jFI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="w04-eM-yLa"/>
+            </constraints>
+            <size key="customSize" width="141" height="164"/>
+            <connections>
+                <outlet property="imagenmostrar" destination="I2V-rv-qnR" id="XWq-qU-1Ny"/>
+                <outlet property="lblnombre" destination="sZq-W3-pLg" id="q9g-lI-Dns"/>
+            </connections>
+            <point key="canvasLocation" x="187.02290076335876" y="59.859154929577471"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -11,18 +11,20 @@
 		7A01C56C2A1D52F6000C215C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56B2A1D52F6000C215C /* FirebaseAuth */; };
 		7A01C56E2A1D52F6000C215C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56D2A1D52F6000C215C /* FirebaseCrashlytics */; };
 		7A01C5702A1D52F6000C215C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56F2A1D52F6000C215C /* FirebaseStorage */; };
-		7A01C5762A1D728F000C215C /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C5742A1D728F000C215C /* AreaCell.swift */; };
-		7A01C5772A1D728F000C215C /* AreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A01C5752A1D728F000C215C /* AreaCell.xib */; };
-		7A01C57B2A1D8D53000C215C /* ProductosCardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C5792A1D8D53000C215C /* ProductosCardViewCell.swift */; };
-		7A01C57C2A1D8D53000C215C /* ProductosCardViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A01C57A2A1D8D53000C215C /* ProductosCardViewCell.xib */; };
-		7A01C57F2A1D9480000C215C /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C57E2A1D9480000C215C /* AreaController.swift */; };
-		7A01C5822A1D95F8000C215C /* DepartamentoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C5812A1D95F8000C215C /* DepartamentoController.swift */; };
-		7A01C5852A1D966C000C215C /* ProductosColeccionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C5842A1D966C000C215C /* ProductosColeccionController.swift */; };
 		7A01C5872A1D9950000C215C /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C5862A1D9950000C215C /* AreaViewModel.swift */; };
 		7A0776182A1BCB77005D659F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0776172A1BCB77005D659F /* Login.swift */; };
 		7A07761B2A1BEEFC005D659F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */; };
 		7A07761D2A1BF523005D659F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07761C2A1BF523005D659F /* LoginController.swift */; };
 		7A07761F2A1BFC8E005D659F /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07761E2A1BFC8E005D659F /* RegistroController.swift */; };
+		7A18AF2D2A211CBC005BF06D /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF2C2A211CBC005BF06D /* RegistroController.swift */; };
+		7A18AF302A211FE5005BF06D /* LAvilaEcommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF2E2A211FE5005BF06D /* LAvilaEcommerce.xcdatamodeld */; };
+		7A18AF332A213EA6005BF06D /* CarritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF322A213EA6005BF06D /* CarritoViewModel.swift */; };
+		7A18AF3B2A215DD8005BF06D /* CarritoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF3A2A215DD8005BF06D /* CarritoController.swift */; };
+		7A18AF3E2A2172C1005BF06D /* CarritoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF3C2A2172C1005BF06D /* CarritoCell.swift */; };
+		7A18AF3F2A2172C1005BF06D /* CarritoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A18AF3D2A2172C1005BF06D /* CarritoCell.xib */; };
+		7A18AF402A217621005BF06D /* ProductosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87D02A143F7E00DB8E37 /* ProductosViewModel.swift */; };
+		7A18AF412A21773B005BF06D /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8ED2A1536E000E2363A /* Proveedor.swift */; };
+		7A18AF452A21885B005BF06D /* ProductoVentasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF442A21885B005BF06D /* ProductoVentasViewModel.swift */; };
 		7A1E86FA2A0DAE6A000525D6 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */; };
 		7A4995A42A0C042500AA92F5 /* RolGetAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */; };
 		7A542D362A02E8830068E3F1 /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A542D352A02E8820068E3F1 /* GetAllUsuarioController.swift */; };
@@ -51,6 +53,34 @@
 		7A87E8EC2A15364C00E2363A /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8EB2A15364C00E2363A /* Departamento.swift */; };
 		7A87E8EE2A1536E000E2363A /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8ED2A1536E000E2363A /* Proveedor.swift */; };
 		7A87E8F12A15373000E2363A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8F02A15373000E2363A /* Area.swift */; };
+		7ABF6AE42A1FF42C00710224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6AE32A1FF42C00710224 /* AppDelegate.swift */; };
+		7ABF6AE62A1FF42C00710224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6AE52A1FF42C00710224 /* SceneDelegate.swift */; };
+		7ABF6AE82A1FF42C00710224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6AE72A1FF42C00710224 /* ViewController.swift */; };
+		7ABF6AEB2A1FF42C00710224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF6AE92A1FF42C00710224 /* Main.storyboard */; };
+		7ABF6AED2A1FF42E00710224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF6AEC2A1FF42E00710224 /* Assets.xcassets */; };
+		7ABF6AF02A1FF42E00710224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF6AEE2A1FF42E00710224 /* LaunchScreen.storyboard */; };
+		7ABF6AF72A20010B00710224 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54689029FC53A8006BA180 /* DBManager.swift */; };
+		7ABF6AF82A20011400710224 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87CB2A14336C00DB8E37 /* Producto.swift */; };
+		7ABF6AF92A20012400710224 /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8EB2A15364C00E2363A /* Departamento.swift */; };
+		7ABF6AFA2A20013900710224 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8F02A15373000E2363A /* Area.swift */; };
+		7ABF6AFB2A20014100710224 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0776172A1BCB77005D659F /* Login.swift */; };
+		7ABF6AFC2A20017100710224 /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01C5862A1D9950000C215C /* AreaViewModel.swift */; };
+		7ABF6AFD2A20017E00710224 /* DepartamentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */; };
+		7ABF6AFE2A20018400710224 /* ProductosCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */; };
+		7ABF6AFF2A20018F00710224 /* ProductosViewModelLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */; };
+		7ABF6B002A20032200710224 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A57C9BC2A01D4F300FED5F5 /* Result.swift */; };
+		7ABF6B072A20074E00710224 /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6B062A20074E00710224 /* AreaController.swift */; };
+		7ABF6B092A20087000710224 /* DepartamentoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6B082A20087000710224 /* DepartamentoController.swift */; };
+		7ABF6B0C2A200FAA00710224 /* ProductosColeccionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6B0B2A200FAA00710224 /* ProductosColeccionController.swift */; };
+		7ABF6B182A20219700710224 /* ProductosCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6B162A20219700710224 /* ProductosCardCell.swift */; };
+		7ABF6B192A20219700710224 /* ProductosCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF6B172A20219700710224 /* ProductosCardCell.xib */; };
+		7ABF6B1E2A2026F300710224 /* AreaCardVentasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6B1C2A2026F300710224 /* AreaCardVentasCell.swift */; };
+		7ABF6B1F2A2026F300710224 /* AreaCardVentasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF6B1D2A2026F300710224 /* AreaCardVentasCell.xib */; };
+		7ABF6B212A202F6F00710224 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7ABF6B202A202F6F00710224 /* FirebaseAnalytics */; };
+		7ABF6B232A202F6F00710224 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7ABF6B222A202F6F00710224 /* FirebaseAuth */; };
+		7ABF6B252A202F6F00710224 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7ABF6B242A202F6F00710224 /* FirebaseStorage */; };
+		7ABF6B282A20398200710224 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6B272A20398200710224 /* LoginController.swift */; };
+		7ABF6B292A20443F00710224 /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */; };
 		7AC81E902A1ED092007C416C /* ProductosCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */; };
 		7AC81E922A1ED0CB007C416C /* ProductosViewModelLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */; };
 		7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */; };
@@ -60,18 +90,18 @@
 /* Begin PBXFileReference section */
 		10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoViewModel.swift; sourceTree = "<group>"; };
 		45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.release.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.release.xcconfig"; sourceTree = "<group>"; };
-		7A01C5742A1D728F000C215C /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
-		7A01C5752A1D728F000C215C /* AreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCell.xib; sourceTree = "<group>"; };
-		7A01C5792A1D8D53000C215C /* ProductosCardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCardViewCell.swift; sourceTree = "<group>"; };
-		7A01C57A2A1D8D53000C215C /* ProductosCardViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductosCardViewCell.xib; sourceTree = "<group>"; };
-		7A01C57E2A1D9480000C215C /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
-		7A01C5812A1D95F8000C215C /* DepartamentoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoController.swift; sourceTree = "<group>"; };
-		7A01C5842A1D966C000C215C /* ProductosColeccionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosColeccionController.swift; sourceTree = "<group>"; };
 		7A01C5862A1D9950000C215C /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
 		7A0776172A1BCB77005D659F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7A07761C2A1BF523005D659F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		7A07761E2A1BFC8E005D659F /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
+		7A18AF2C2A211CBC005BF06D /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
+		7A18AF2F2A211FE5005BF06D /* LAvilaEcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LAvilaEcommerce.xcdatamodel; sourceTree = "<group>"; };
+		7A18AF322A213EA6005BF06D /* CarritoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewModel.swift; sourceTree = "<group>"; };
+		7A18AF3A2A215DD8005BF06D /* CarritoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoController.swift; sourceTree = "<group>"; };
+		7A18AF3C2A2172C1005BF06D /* CarritoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoCell.swift; sourceTree = "<group>"; };
+		7A18AF3D2A2172C1005BF06D /* CarritoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarritoCell.xib; sourceTree = "<group>"; };
+		7A18AF442A21885B005BF06D /* ProductoVentasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoVentasViewModel.swift; sourceTree = "<group>"; };
 		7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolGetAllController.swift; sourceTree = "<group>"; };
 		7A542D352A02E8820068E3F1 /* GetAllUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuarioController.swift; sourceTree = "<group>"; };
@@ -102,6 +132,24 @@
 		7A87E8EB2A15364C00E2363A /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
 		7A87E8ED2A1536E000E2363A /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
 		7A87E8F02A15373000E2363A /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		7ABF6AE12A1FF42C00710224 /* LAvilaEcommerceVenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAvilaEcommerceVenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABF6AE32A1FF42C00710224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7ABF6AE52A1FF42C00710224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7ABF6AE72A1FF42C00710224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ABF6AEA2A1FF42C00710224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ABF6AEC2A1FF42E00710224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ABF6AEF2A1FF42E00710224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ABF6AF12A1FF42E00710224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABF6AF52A1FF45400710224 /* LAvilaEcommerce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LAvilaEcommerce.entitlements; sourceTree = "<group>"; };
+		7ABF6AF62A1FF48100710224 /* LAvilaEcommerceVenta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LAvilaEcommerceVenta.entitlements; sourceTree = "<group>"; };
+		7ABF6B062A20074E00710224 /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
+		7ABF6B082A20087000710224 /* DepartamentoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoController.swift; sourceTree = "<group>"; };
+		7ABF6B0B2A200FAA00710224 /* ProductosColeccionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosColeccionController.swift; sourceTree = "<group>"; };
+		7ABF6B162A20219700710224 /* ProductosCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCardCell.swift; sourceTree = "<group>"; };
+		7ABF6B172A20219700710224 /* ProductosCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductosCardCell.xib; sourceTree = "<group>"; };
+		7ABF6B1C2A2026F300710224 /* AreaCardVentasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCardVentasCell.swift; sourceTree = "<group>"; };
+		7ABF6B1D2A2026F300710224 /* AreaCardVentasCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCardVentasCell.xib; sourceTree = "<group>"; };
+		7ABF6B272A20398200710224 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCardViewModel.swift; sourceTree = "<group>"; };
 		7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosViewModelLike.swift; sourceTree = "<group>"; };
 		7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
@@ -122,6 +170,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7ABF6ADE2A1FF42C00710224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF6B212A202F6F00710224 /* FirebaseAnalytics in Frameworks */,
+				7ABF6B232A202F6F00710224 /* FirebaseAuth in Frameworks */,
+				7ABF6B252A202F6F00710224 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -134,48 +192,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		7A01C5712A1D71A2000C215C /* Area */ = {
-			isa = PBXGroup;
-			children = (
-				7A01C5742A1D728F000C215C /* AreaCell.swift */,
-				7A01C5752A1D728F000C215C /* AreaCell.xib */,
-			);
-			path = Area;
-			sourceTree = "<group>";
-		};
-		7A01C5782A1D8CED000C215C /* DProductosCardview */ = {
-			isa = PBXGroup;
-			children = (
-				7A01C5792A1D8D53000C215C /* ProductosCardViewCell.swift */,
-				7A01C57A2A1D8D53000C215C /* ProductosCardViewCell.xib */,
-			);
-			path = DProductosCardview;
-			sourceTree = "<group>";
-		};
-		7A01C57D2A1D9458000C215C /* Area */ = {
-			isa = PBXGroup;
-			children = (
-				7A01C57E2A1D9480000C215C /* AreaController.swift */,
-			);
-			path = Area;
-			sourceTree = "<group>";
-		};
-		7A01C5802A1D95A3000C215C /* Departamento */ = {
-			isa = PBXGroup;
-			children = (
-				7A01C5812A1D95F8000C215C /* DepartamentoController.swift */,
-			);
-			path = Departamento;
-			sourceTree = "<group>";
-		};
-		7A01C5832A1D963A000C215C /* ProductoCollectionController */ = {
-			isa = PBXGroup;
-			children = (
-				7A01C5842A1D966C000C215C /* ProductosColeccionController.swift */,
-			);
-			path = ProductoCollectionController;
-			sourceTree = "<group>";
-		};
 		7A0776192A1BCC7C005D659F /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +199,39 @@
 				7A07761E2A1BFC8E005D659F /* RegistroController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		7A18AF312A213E89005BF06D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A18AF322A213EA6005BF06D /* CarritoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A18AF342A215731005BF06D /* CarritoCell  */ = {
+			isa = PBXGroup;
+			children = (
+				7A18AF3C2A2172C1005BF06D /* CarritoCell.swift */,
+				7A18AF3D2A2172C1005BF06D /* CarritoCell.xib */,
+			);
+			path = "CarritoCell ";
+			sourceTree = "<group>";
+		};
+		7A18AF392A215DA4005BF06D /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				7A18AF3A2A215DD8005BF06D /* CarritoController.swift */,
+			);
+			path = Carrito;
+			sourceTree = "<group>";
+		};
+		7A18AF422A218838005BF06D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A18AF442A21885B005BF06D /* ProductoVentasViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7A6C87C12A142C3800DB8E37 /* Productos */ = {
@@ -235,8 +284,10 @@
 		7A75DB2029FAFFAC0058795F = {
 			isa = PBXGroup;
 			children = (
+				7A18AF2E2A211FE5005BF06D /* LAvilaEcommerce.xcdatamodeld */,
 				7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */,
 				7A75DB2B29FAFFAC0058795F /* LAvilaEcommerce */,
+				7ABF6AE22A1FF42C00710224 /* LAvilaEcommerceVenta */,
 				7A75DB2A29FAFFAC0058795F /* Products */,
 				46D862CDDA83749396531758 /* Pods */,
 				F3CB606989E526477D988672 /* Frameworks */,
@@ -247,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */,
+				7ABF6AE12A1FF42C00710224 /* LAvilaEcommerceVenta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,6 +306,7 @@
 		7A75DB2B29FAFFAC0058795F /* LAvilaEcommerce */ = {
 			isa = PBXGroup;
 			children = (
+				7ABF6AF52A1FF45400710224 /* LAvilaEcommerce.entitlements */,
 				7AF6F0B62A043F25007B5C29 /* Util */,
 				7AF6F0B42A043EC6007B5C29 /* Controller */,
 				7AF6F0B32A043EB5007B5C29 /* ViewModel */,
@@ -286,11 +339,101 @@
 			path = Rol;
 			sourceTree = "<group>";
 		};
+		7ABF6AE22A1FF42C00710224 /* LAvilaEcommerceVenta */ = {
+			isa = PBXGroup;
+			children = (
+				7A18AF422A218838005BF06D /* Model */,
+				7A18AF312A213E89005BF06D /* ViewModel */,
+				7ABF6B0E2A2010D500710224 /* view */,
+				7ABF6B012A20058800710224 /* Controller */,
+				7ABF6AF62A1FF48100710224 /* LAvilaEcommerceVenta.entitlements */,
+				7ABF6AE32A1FF42C00710224 /* AppDelegate.swift */,
+				7ABF6AE52A1FF42C00710224 /* SceneDelegate.swift */,
+				7ABF6AE72A1FF42C00710224 /* ViewController.swift */,
+				7ABF6AE92A1FF42C00710224 /* Main.storyboard */,
+				7ABF6AEC2A1FF42E00710224 /* Assets.xcassets */,
+				7ABF6AEE2A1FF42E00710224 /* LaunchScreen.storyboard */,
+				7ABF6AF12A1FF42E00710224 /* Info.plist */,
+			);
+			path = LAvilaEcommerceVenta;
+			sourceTree = "<group>";
+		};
+		7ABF6B012A20058800710224 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF6B262A20390900710224 /* Login */,
+				7A18AF392A215DA4005BF06D /* Carrito */,
+				7ABF6B042A2005FB00710224 /* Area */,
+				7ABF6B0A2A20096C00710224 /* ProductoController */,
+				7ABF6B052A20066300710224 /* Departamento */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ABF6B042A2005FB00710224 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF6B062A20074E00710224 /* AreaController.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		7ABF6B052A20066300710224 /* Departamento */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF6B082A20087000710224 /* DepartamentoController.swift */,
+			);
+			path = Departamento;
+			sourceTree = "<group>";
+		};
+		7ABF6B0A2A20096C00710224 /* ProductoController */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF6B0B2A200FAA00710224 /* ProductosColeccionController.swift */,
+			);
+			path = ProductoController;
+			sourceTree = "<group>";
+		};
+		7ABF6B0E2A2010D500710224 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7A18AF342A215731005BF06D /* CarritoCell  */,
+				7ABF6B1A2A2026CE00710224 /* Area */,
+				7ABF6B152A20214D00710224 /* DepartamentoVenta */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7ABF6B152A20214D00710224 /* DepartamentoVenta */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF6B162A20219700710224 /* ProductosCardCell.swift */,
+				7ABF6B172A20219700710224 /* ProductosCardCell.xib */,
+			);
+			path = DepartamentoVenta;
+			sourceTree = "<group>";
+		};
+		7ABF6B1A2A2026CE00710224 /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF6B1C2A2026F300710224 /* AreaCardVentasCell.swift */,
+				7ABF6B1D2A2026F300710224 /* AreaCardVentasCell.xib */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		7ABF6B262A20390900710224 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF6B272A20398200710224 /* LoginController.swift */,
+				7A18AF2C2A211CBC005BF06D /* RegistroController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		7AF6F0AE2A043D59007B5C29 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7A01C5782A1D8CED000C215C /* DProductosCardview */,
-				7A01C5712A1D71A2000C215C /* Area */,
 				7A75DB3729FAFFAE0058795F /* LaunchScreen.storyboard */,
 				7A75DB3229FAFFAC0058795F /* Main.storyboard */,
 				7A6C87C12A142C3800DB8E37 /* Productos */,
@@ -335,9 +478,6 @@
 		7AF6F0B42A043EC6007B5C29 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7A01C5832A1D963A000C215C /* ProductoCollectionController */,
-				7A01C5802A1D95A3000C215C /* Departamento */,
-				7A01C57D2A1D9458000C215C /* Area */,
 				7A0776192A1BCC7C005D659F /* Login */,
 				7A6C87C62A142D4A00DB8E37 /* Producto */,
 				7A76D2492A0AFA68005325EA /* Rol */,
@@ -399,6 +539,28 @@
 			productReference = 7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7ABF6AE02A1FF42C00710224 /* LAvilaEcommerceVenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABF6AF42A1FF42E00710224 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVenta" */;
+			buildPhases = (
+				7ABF6ADD2A1FF42C00710224 /* Sources */,
+				7ABF6ADE2A1FF42C00710224 /* Frameworks */,
+				7ABF6ADF2A1FF42C00710224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAvilaEcommerceVenta;
+			packageProductDependencies = (
+				7ABF6B202A202F6F00710224 /* FirebaseAnalytics */,
+				7ABF6B222A202F6F00710224 /* FirebaseAuth */,
+				7ABF6B242A202F6F00710224 /* FirebaseStorage */,
+			);
+			productName = LAvilaEcommerceVenta;
+			productReference = 7ABF6AE12A1FF42C00710224 /* LAvilaEcommerceVenta.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -410,6 +572,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					7A75DB2829FAFFAC0058795F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					7ABF6AE02A1FF42C00710224 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -431,6 +596,7 @@
 			projectRoot = "";
 			targets = (
 				7A75DB2829FAFFAC0058795F /* LAvilaEcommerce */,
+				7ABF6AE02A1FF42C00710224 /* LAvilaEcommerceVenta */,
 			);
 		};
 /* End PBXProject section */
@@ -446,9 +612,20 @@
 				7A76D2462A0AF348005325EA /* RolCell.xib in Resources */,
 				7A75DB3429FAFFAC0058795F /* Main.storyboard in Resources */,
 				7A6C87C52A142CC400DB8E37 /* ProductosCell.xib in Resources */,
-				7A01C5772A1D728F000C215C /* AreaCell.xib in Resources */,
 				7A07761B2A1BEEFC005D659F /* GoogleService-Info.plist in Resources */,
-				7A01C57C2A1D8D53000C215C /* ProductosCardViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABF6ADF2A1FF42C00710224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF6AF02A1FF42E00710224 /* LaunchScreen.storyboard in Resources */,
+				7ABF6AED2A1FF42E00710224 /* Assets.xcassets in Resources */,
+				7ABF6B1F2A2026F300710224 /* AreaCardVentasCell.xib in Resources */,
+				7ABF6AEB2A1FF42C00710224 /* Main.storyboard in Resources */,
+				7A18AF3F2A2172C1005BF06D /* CarritoCell.xib in Resources */,
+				7ABF6B192A20219700710224 /* ProductosCardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,9 +680,7 @@
 			files = (
 				7A76D2452A0AF348005325EA /* RolCell.swift in Sources */,
 				7AC81E922A1ED0CB007C416C /* ProductosViewModelLike.swift in Sources */,
-				7A01C57B2A1D8D53000C215C /* ProductosCardViewCell.swift in Sources */,
 				7A57C9BD2A01D4F300FED5F5 /* Result.swift in Sources */,
-				7A01C5852A1D966C000C215C /* ProductosColeccionController.swift in Sources */,
 				7A76D2482A0AF9D0005325EA /* RolViewModel.swift in Sources */,
 				7A6C87C82A142D8B00DB8E37 /* FormProductosController.swift in Sources */,
 				10C16E072A1DB31A0023CC50 /* DepartamentoViewModel.swift in Sources */,
@@ -515,15 +690,12 @@
 				7A76D2412A0AF233005325EA /* Rol.swift in Sources */,
 				7A75DB2D29FAFFAC0058795F /* AppDelegate.swift in Sources */,
 				7A6C87CC2A14336C00DB8E37 /* Producto.swift in Sources */,
-				7A01C5762A1D728F000C215C /* AreaCell.swift in Sources */,
 				7A87E8EE2A1536E000E2363A /* Proveedor.swift in Sources */,
 				7A542D392A02F1170068E3F1 /* UsuarioCell.swift in Sources */,
-				7A01C5822A1D95F8000C215C /* DepartamentoController.swift in Sources */,
 				7A75DB2F29FAFFAC0058795F /* SceneDelegate.swift in Sources */,
 				7A07761D2A1BF523005D659F /* LoginController.swift in Sources */,
 				7A01C5872A1D9950000C215C /* AreaViewModel.swift in Sources */,
 				7AC81E902A1ED092007C416C /* ProductosCardViewModel.swift in Sources */,
-				7A01C57F2A1D9480000C215C /* AreaController.swift in Sources */,
 				7A6C87CA2A142E4300DB8E37 /* GetAllProductoController.swift in Sources */,
 				7A07761F2A1BFC8E005D659F /* RegistroController.swift in Sources */,
 				7A87E8EC2A15364C00E2363A /* Departamento.swift in Sources */,
@@ -535,6 +707,41 @@
 				7A6C87D12A143F7E00DB8E37 /* ProductosViewModel.swift in Sources */,
 				7A87E8F12A15373000E2363A /* Area.swift in Sources */,
 				7A76D24B2A0B163B005325EA /* FormRolController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABF6ADD2A1FF42C00710224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A18AF412A21773B005BF06D /* Proveedor.swift in Sources */,
+				7A18AF402A217621005BF06D /* ProductosViewModel.swift in Sources */,
+				7A18AF3B2A215DD8005BF06D /* CarritoController.swift in Sources */,
+				7ABF6B292A20443F00710224 /* GoogleService-Info.plist in Sources */,
+				7ABF6B282A20398200710224 /* LoginController.swift in Sources */,
+				7ABF6B002A20032200710224 /* Result.swift in Sources */,
+				7ABF6AFF2A20018F00710224 /* ProductosViewModelLike.swift in Sources */,
+				7ABF6B072A20074E00710224 /* AreaController.swift in Sources */,
+				7ABF6AFE2A20018400710224 /* ProductosCardViewModel.swift in Sources */,
+				7ABF6B182A20219700710224 /* ProductosCardCell.swift in Sources */,
+				7ABF6AFD2A20017E00710224 /* DepartamentoViewModel.swift in Sources */,
+				7ABF6AFC2A20017100710224 /* AreaViewModel.swift in Sources */,
+				7ABF6AFB2A20014100710224 /* Login.swift in Sources */,
+				7ABF6B092A20087000710224 /* DepartamentoController.swift in Sources */,
+				7ABF6AFA2A20013900710224 /* Area.swift in Sources */,
+				7ABF6AF92A20012400710224 /* Departamento.swift in Sources */,
+				7A18AF2D2A211CBC005BF06D /* RegistroController.swift in Sources */,
+				7A18AF452A21885B005BF06D /* ProductoVentasViewModel.swift in Sources */,
+				7ABF6AF82A20011400710224 /* Producto.swift in Sources */,
+				7ABF6AF72A20010B00710224 /* DBManager.swift in Sources */,
+				7ABF6AE82A1FF42C00710224 /* ViewController.swift in Sources */,
+				7A18AF302A211FE5005BF06D /* LAvilaEcommerce.xcdatamodeld in Sources */,
+				7ABF6AE42A1FF42C00710224 /* AppDelegate.swift in Sources */,
+				7A18AF3E2A2172C1005BF06D /* CarritoCell.swift in Sources */,
+				7A18AF332A213EA6005BF06D /* CarritoViewModel.swift in Sources */,
+				7ABF6B1E2A2026F300710224 /* AreaCardVentasCell.swift in Sources */,
+				7ABF6AE62A1FF42C00710224 /* SceneDelegate.swift in Sources */,
+				7ABF6B0C2A200FAA00710224 /* ProductosColeccionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +760,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7A75DB3829FAFFAE0058795F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7ABF6AE92A1FF42C00710224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABF6AEA2A1FF42C00710224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ABF6AEE2A1FF42E00710224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABF6AEF2A1FF42E00710224 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -680,6 +903,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LAvilaEcommerce/LAvilaEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5GF78NBJ67;
@@ -709,6 +933,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LAvilaEcommerce/LAvilaEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5GF78NBJ67;
@@ -725,6 +950,64 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7ABF6AF22A1FF42E00710224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LAvilaEcommerceVenta/LAvilaEcommerceVenta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GF78NBJ67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LAvilaEcommerceVenta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerceVenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ABF6AF32A1FF42E00710224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LAvilaEcommerceVenta/LAvilaEcommerceVenta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GF78NBJ67;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LAvilaEcommerceVenta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerceVenta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -749,6 +1032,15 @@
 			buildConfigurations = (
 				7A75DB3E29FAFFAE0058795F /* Debug */,
 				7A75DB3F29FAFFAE0058795F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABF6AF42A1FF42E00710224 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABF6AF22A1FF42E00710224 /* Debug */,
+				7ABF6AF32A1FF42E00710224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -782,7 +1074,35 @@
 			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
+		7ABF6B202A202F6F00710224 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7ABF6B222A202F6F00710224 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7ABF6B242A202F6F00710224 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		7A18AF2E2A211FE5005BF06D /* LAvilaEcommerce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A18AF2F2A211FE5005BF06D /* LAvilaEcommerce.xcdatamodel */,
+			);
+			currentVersion = 7A18AF2F2A211FE5005BF06D /* LAvilaEcommerce.xcdatamodel */;
+			path = LAvilaEcommerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7A75DB2129FAFFAC0058795F /* Project object */;
 }

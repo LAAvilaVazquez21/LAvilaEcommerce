@@ -26,7 +26,7 @@ class LoginController: UIViewController {
         super.viewDidLoad()
         
         
-       // btniniciar.isEnabled = false
+        // btniniciar.isEnabled = false
         
         
         // Do any additional setup after loading the view.
@@ -35,7 +35,7 @@ class LoginController: UIViewController {
     
     @IBAction func btnRegistrarUsuario(_ sender: UIButton) {
         
-        performSegue(withIdentifier: "", sender: self)
+        performSegue(withIdentifier: "segueregistro", sender: self)
         
     }
     
@@ -43,7 +43,7 @@ class LoginController: UIViewController {
     
     @IBAction func btnlogging() {
         
-      
+        
         
         guard usuarioTxt.text != "" else {
             ddlusuario.text =  "El campo no puede ser vacio"
@@ -65,9 +65,9 @@ class LoginController: UIViewController {
         let contraseña = passwordTxt.text!
         
         Auth.auth().signIn(withEmail: correo, password: contraseña) { [weak self] authResult, error in
-          guard let strongSelf = self else { return }
-
-
+            guard let strongSelf = self else { return }
+            
+            
             if let ex = error{
                 let alert = UIAlertController(title: "Mensaje", message: "No se encontro su usuario", preferredStyle: .alert)
                 let action = UIAlertAction(title: "Aceptar", style: .default)
@@ -83,9 +83,6 @@ class LoginController: UIViewController {
             
         }
         
-        
-    }
-    @IBAction func btnregistro(_ sender: UIButton) {
         
     }
     

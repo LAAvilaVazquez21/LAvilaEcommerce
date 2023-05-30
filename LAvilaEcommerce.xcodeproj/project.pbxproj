@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10C16E072A1DB31A0023CC50 /* DepartamentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */; };
+		4AF83B70C742F13A462CFFD1 /* Pods_LAvilaEcommerceVenta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF8C2DEC0ACC4D05F903E48 /* Pods_LAvilaEcommerceVenta.framework */; };
 		7A01C56C2A1D52F6000C215C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56B2A1D52F6000C215C /* FirebaseAuth */; };
 		7A01C56E2A1D52F6000C215C /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56D2A1D52F6000C215C /* FirebaseCrashlytics */; };
 		7A01C5702A1D52F6000C215C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7A01C56F2A1D52F6000C215C /* FirebaseStorage */; };
@@ -22,10 +23,10 @@
 		7A18AF3B2A215DD8005BF06D /* CarritoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF3A2A215DD8005BF06D /* CarritoController.swift */; };
 		7A18AF3E2A2172C1005BF06D /* CarritoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF3C2A2172C1005BF06D /* CarritoCell.swift */; };
 		7A18AF3F2A2172C1005BF06D /* CarritoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A18AF3D2A2172C1005BF06D /* CarritoCell.xib */; };
-		7A18AF402A217621005BF06D /* ProductosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87D02A143F7E00DB8E37 /* ProductosViewModel.swift */; };
 		7A18AF412A21773B005BF06D /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8ED2A1536E000E2363A /* Proveedor.swift */; };
 		7A18AF452A21885B005BF06D /* ProductoVentasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18AF442A21885B005BF06D /* ProductoVentasViewModel.swift */; };
 		7A1E86FA2A0DAE6A000525D6 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */; };
+		7A1F66112A251B710070B03E /* ProductosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87D02A143F7E00DB8E37 /* ProductosViewModel.swift */; };
 		7A4995A42A0C042500AA92F5 /* RolGetAllController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */; };
 		7A542D362A02E8830068E3F1 /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A542D352A02E8820068E3F1 /* GetAllUsuarioController.swift */; };
 		7A542D392A02F1170068E3F1 /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A542D372A02F1170068E3F1 /* UsuarioCell.swift */; };
@@ -89,6 +90,7 @@
 
 /* Begin PBXFileReference section */
 		10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoViewModel.swift; sourceTree = "<group>"; };
+		459B85498AB88954C7D68395 /* Pods-LAvilaEcommerceVenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerceVenta.release.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta.release.xcconfig"; sourceTree = "<group>"; };
 		45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.release.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.release.xcconfig"; sourceTree = "<group>"; };
 		7A01C5862A1D9950000C215C /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
 		7A0776172A1BCB77005D659F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -153,6 +155,8 @@
 		7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCardViewModel.swift; sourceTree = "<group>"; };
 		7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosViewModelLike.swift; sourceTree = "<group>"; };
 		7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
+		8DF8C2DEC0ACC4D05F903E48 /* Pods_LAvilaEcommerceVenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAvilaEcommerceVenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD9E8ABECBCA171189B3DCA /* Pods-LAvilaEcommerceVenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerceVenta.debug.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta.debug.xcconfig"; sourceTree = "<group>"; };
 		EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAvilaEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54A662A0A81E3D601A5B41B /* Pods-LAvilaEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerce.debug.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -177,6 +181,7 @@
 				7ABF6B212A202F6F00710224 /* FirebaseAnalytics in Frameworks */,
 				7ABF6B232A202F6F00710224 /* FirebaseAuth in Frameworks */,
 				7ABF6B252A202F6F00710224 /* FirebaseStorage in Frameworks */,
+				4AF83B70C742F13A462CFFD1 /* Pods_LAvilaEcommerceVenta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +193,8 @@
 			children = (
 				F54A662A0A81E3D601A5B41B /* Pods-LAvilaEcommerce.debug.xcconfig */,
 				45D479CC0CD5B1A70AF33A35 /* Pods-LAvilaEcommerce.release.xcconfig */,
+				ABD9E8ABECBCA171189B3DCA /* Pods-LAvilaEcommerceVenta.debug.xcconfig */,
+				459B85498AB88954C7D68395 /* Pods-LAvilaEcommerceVenta.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -508,6 +515,7 @@
 			children = (
 				7A1E86F92A0DAE6A000525D6 /* iOSDropDown.framework */,
 				EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */,
+				8DF8C2DEC0ACC4D05F903E48 /* Pods_LAvilaEcommerceVenta.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -543,9 +551,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ABF6AF42A1FF42E00710224 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVenta" */;
 			buildPhases = (
+				A57589DFE53BD95FDE833EBE /* [CP] Check Pods Manifest.lock */,
 				7ABF6ADD2A1FF42C00710224 /* Sources */,
 				7ABF6ADE2A1FF42C00710224 /* Frameworks */,
 				7ABF6ADF2A1FF42C00710224 /* Resources */,
+				FDEF0BA5DB68E817E3A2F3C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -589,7 +599,7 @@
 			);
 			mainGroup = 7A75DB2029FAFFAC0058795F;
 			packageReferences = (
-				7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */,
 			);
 			productRefGroup = 7A75DB2A29FAFFAC0058795F /* Products */;
 			projectDirPath = "";
@@ -671,6 +681,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A57589DFE53BD95FDE833EBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LAvilaEcommerceVenta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEF0BA5DB68E817E3A2F3C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -714,8 +763,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1F66112A251B710070B03E /* ProductosViewModel.swift in Sources */,
 				7A18AF412A21773B005BF06D /* Proveedor.swift in Sources */,
-				7A18AF402A217621005BF06D /* ProductosViewModel.swift in Sources */,
 				7A18AF3B2A215DD8005BF06D /* CarritoController.swift in Sources */,
 				7ABF6B292A20443F00710224 /* GoogleService-Info.plist in Sources */,
 				7ABF6B282A20398200710224 /* LoginController.swift in Sources */,
@@ -959,6 +1008,7 @@
 		};
 		7ABF6AF22A1FF42E00710224 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD9E8ABECBCA171189B3DCA /* Pods-LAvilaEcommerceVenta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -988,6 +1038,7 @@
 		};
 		7ABF6AF32A1FF42E00710224 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459B85498AB88954C7D68395 /* Pods-LAvilaEcommerceVenta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1048,7 +1099,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
@@ -1061,32 +1112,32 @@
 /* Begin XCSwiftPackageProductDependency section */
 		7A01C56B2A1D52F6000C215C /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
 			productName = FirebaseAuth;
 		};
 		7A01C56D2A1D52F6000C215C /* FirebaseCrashlytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
 			productName = FirebaseCrashlytics;
 		};
 		7A01C56F2A1D52F6000C215C /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
 			productName = FirebaseStorage;
 		};
 		7ABF6B202A202F6F00710224 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
 			productName = FirebaseAnalytics;
 		};
 		7ABF6B222A202F6F00710224 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
 			productName = FirebaseAuth;
 		};
 		7ABF6B242A202F6F00710224 /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
 			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */

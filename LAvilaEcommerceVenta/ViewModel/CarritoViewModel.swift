@@ -42,8 +42,30 @@ class CarritoViewModel{
        func Update(IdAlumno : Int){
            
        }
-       func Delete(IdAlumno : Int){
+       func Delete(IdProducto : Int) -> Result{
            
+           
+           var result = Result()
+           
+           let context = appDelegate.persistentContainer.viewContext
+           
+           let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
+           
+           response.predicate = NSPredicate(format: "IdProducto = %@", IdProducto)
+                   
+           do{
+               let test = try context.fetch(response)
+               let objectToDelete = test[0] as! NSManagedObject
+               context.delete(objectToDelete)
+               do{
+                   try context.save()
+                   result.Correct = true
+               }catch let error{
+                   result.Correct = false
+                   result.ErrorMessage = error.localizedDescription
+                   result.Ex = error               }
+           }
+           return result
        }
        func GetById(IdAlumno : Int){
            
@@ -56,16 +78,29 @@ class CarritoViewModel{
            let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
            
            do{
+               result.Objects = []
                let resultFetch = try context.fetch(response)
                for obj in resultFetch as! [NSManagedObject]{
                    //Instancia de venta producto //Crear Modelo
-                   let idProducto = obj.value(forKey: "idProducto")
-                   let cantidad = obj.value(forKey: "cantidad")
-                   print(idProducto!)
-                   print(cantidad!)
-                   let result = ProductosViewModel.GetById(IdProducto: idProducto as! Int)
-                   //result.objects.add(MODELOVENTAPRODUCTO)
+                   let modeloventaproducto = ProductoVentasViewModel()
+                   
+                   modeloventaproducto.producto = Producto()
+                   
+                   modeloventaproducto.producto?.IdProducto =  obj.value(forKey: "idProducto") as! Int
+                   modeloventaproducto.Cantidad = obj.value(forKey: "cantidad") as! Int
+                
+                   let result1 = ProductosViewModel.GetById(IdProducto: modeloventaproducto.producto?.IdProducto as! Int)
+                   if result1.Correct!{
+                       let producto = result1.Object! as! Producto
+                       
+                       modeloventaproducto.producto?.Nombre = producto.Nombre
+                       modeloventaproducto.producto?.imagen = producto.imagen
+                   }
+                 
+                   result.Objects?.append(modeloventaproducto)
+                  
                }
+               result.Correct = true
            }
            catch let error {
                result.Correct = false

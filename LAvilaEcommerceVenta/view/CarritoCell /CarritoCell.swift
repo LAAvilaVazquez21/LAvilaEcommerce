@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import SwipeCellKit
 
-class CarritoCell: UITableViewCell {
+class CarritoCell: SwipeTableViewCell {
 
     @IBOutlet weak var CarritoNombre: UILabel!
     

@@ -10,5 +10,7 @@ import UIKit
 
 class ProductoVentasViewModel{
     
+    var producto : Producto? = nil
+   var Cantidad : Int? = nil
     
 }

@@ -22,6 +22,8 @@
 		473B8763FFB92A0F9C410D6C0F7B33BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		4C09DF4559F1ED92F2D5FCF68B9533BB /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1FCC82434751027F5A0E08212BFC02 /* SwipeActionTransitioning.swift */; };
 		523AEBBEF339F09B3D7F703065116949 /* IQKeyboardManager+OrientationNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DE995CDAFAA3C8A743302540DCC9C3 /* IQKeyboardManager+OrientationNotification.swift */; };
+		580E4EBD3920BD9B5CB46337F06F7DD8 /* Pods-LAvilaEcommerceVenta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D40CDADE576AC2C8AE63F49D8C0D3A /* Pods-LAvilaEcommerceVenta-dummy.m */; };
+		583DE3773B9AE2C05D6B9C84C2D2E166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		5F29D68FABD1DBFB2CE81CD0EEB8C717 /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F837A6E0EBFE115713D50FF7B3100 /* Swipeable.swift */; };
 		673675F0D1021CC1AFC87DDDB66F3280 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD308272E451B216FB4ACED672D71FB2 /* SwipeTableViewCell.swift */; };
 		6762724102132C861217B911E70056ED /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D605899614D9E28C3BA8A9641859AC /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,7 +31,7 @@
 		692289D335D192949A25CE494FE611F3 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6565A1729D25F46B4ED16EB9AE592A0D /* IQUIView+IQKeyboardToolbar.swift */; };
 		6ADFB626C34AA35AC883469526699F8D /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C133492DCAEDD907F721BAD0640663 /* iOSDropDown.swift */; };
 		6D511F288B33A0B110DD241009EADDF3 /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21508EBBDA766ABA771EA849B3D8E6E9 /* SwipeFeedback.swift */; };
-		7405793CB1B4B5E5A69966DCC83260CA /* Pods-LAvilaEcommerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9242100C4C87C537AEECA832079C493C /* Pods-LAvilaEcommerce-dummy.m */; };
+		7405793CB1B4B5E5A69966DCC83260CA /* Pods-LAvilaEcommerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D0E086CBFE9F10374F81D5ECEEB3A4 /* Pods-LAvilaEcommerce-dummy.m */; };
 		77B80B1AF5452E5544C84C319F9895C6 /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAA0DD52AF5F57C57C1BDC6DA7D32A6 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		795E5ED479198B08FC1242BA6166E022 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BB04755CB43FAF5C298DB2E4D647F /* IQBarButtonItem.swift */; };
 		7B5FEBC758BE2C3E569600DFA545E083 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A78D6FF338511C445008697785C80 /* SwipeTableViewCellDelegate.swift */; };
@@ -63,15 +65,23 @@
 		D6DFB1257A5B7662A05ABB0983A2715D /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA01668BCCEA3ECAA15F7F68C0897CF /* SwipeAction.swift */; };
 		DB3DAAA9D1BB76ECD1CD6D702D6A2887 /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E92D51DD620A334F358FEA2CDAC9C /* SwipeController.swift */; };
 		DBE5155313D5D798F8DAFF95096E7AB5 /* IQKeyboardManager+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9DA7C04D92B585FD2B1E3261FD3F7C /* IQKeyboardManager+Position.swift */; };
+		E3602D0082A20F4812DD04B8A9138859 /* Pods-LAvilaEcommerceVenta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F371A7A6268BC30113842C224DE2C676 /* Pods-LAvilaEcommerceVenta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E400637E6810C3FDFCA6E5A08169AA7F /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2E5148C10BCEFFA74BC047ED4F0C3F /* IQPreviousNextView.swift */; };
 		E514C59F3A036397E120B3D7E7E848A1 /* SwipeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04083FE3E0EEA32565D44C26A862D52 /* SwipeOptions.swift */; };
 		E594027F5D7529EEC3AFD0B1AEFC3841 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BC5AA2A2DAB2952A5856B5BF0CE076 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E98A40806D5768CA55A9ABD62E1094CE /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837F7BC843B830FBF38BF1D7E294197 /* IQKeyboardManagerConstants.swift */; };
 		EA5316A8CF2B14DAE9C877B7FBAF5894 /* IQKeyboardManager+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457A9002E57289F43DED3E52A38E74E /* IQKeyboardManager+Debug.swift */; };
-		F07B34173CA2E2D29FAF05A75BBE4491 /* Pods-LAvilaEcommerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7D3BBD8B3C5B6A1E43DB85E33E259F7 /* Pods-LAvilaEcommerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07B34173CA2E2D29FAF05A75BBE4491 /* Pods-LAvilaEcommerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FCA9B1382C9273EB555444C50637D1E /* Pods-LAvilaEcommerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A83F45ECFEEC3F0EBEF6ECDEFEF902C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
 		4CF58E52767CADDB141ACEBACC4122C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -93,32 +103,44 @@
 			remoteGlobalIDString = 1DE44C23B82E6671E9E1541D06DE0E87;
 			remoteInfo = SwipeCellKit;
 		};
+		F586E7B334BBC495711D14ED9170E9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE44C23B82E6671E9E1541D06DE0E87;
+			remoteInfo = SwipeCellKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		017640E4782284E167D8494E83D4581C /* Pods_LAvilaEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LAvilaEcommerce.framework; path = "Pods-LAvilaEcommerce.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CF879E042113ECE455DF7C6DEA4955 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		03F5F9B2189E69209A569193523ADEEE /* Pods-LAvilaEcommerce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAvilaEcommerce-acknowledgements.plist"; sourceTree = "<group>"; };
 		04D60AC13D33197690A05C641925DDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		052048C4190D033C30F657B886C5F904 /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Display.swift"; path = "Source/SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
 		095360232E616038C633DCCCEC20C766 /* SwipeCellKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.xcconfig; sourceTree = "<group>"; };
 		18362654B2158B763E40C4B21774F9AD /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
+		185EB2D569982F358532F047DECC3B62 /* Pods-LAvilaEcommerce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LAvilaEcommerce.modulemap"; sourceTree = "<group>"; };
 		18C133492DCAEDD907F721BAD0640663 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
 		21508EBBDA766ABA771EA849B3D8E6E9 /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
-		2953527A796F60E7C8CC1CCA75201158 /* Pods-LAvilaEcommerce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAvilaEcommerce-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A4D416672F06948003F1D91B82B88F7 /* Pods-LAvilaEcommerceVenta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LAvilaEcommerceVenta.modulemap"; sourceTree = "<group>"; };
+		39AED23DE94CF0DD1A2BD4962287E287 /* Pods-LAvilaEcommerceVenta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAvilaEcommerceVenta-Info.plist"; sourceTree = "<group>"; };
+		3F663AE5C69339294D211D40A8CEA02C /* Pods-LAvilaEcommerce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAvilaEcommerce-Info.plist"; sourceTree = "<group>"; };
 		42AB8D3D9EC5C86437BCD1E536C2BDAA /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
 		44F8823562365E94DDF6A9258D2D14A1 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
-		47B0D416DE99FAD2555B7BC6E5C0716D /* Pods-LAvilaEcommerce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAvilaEcommerce-frameworks.sh"; sourceTree = "<group>"; };
-		499A500F48A0DAC93747885B94A4FCED /* Pods-LAvilaEcommerce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAvilaEcommerce-acknowledgements.markdown"; sourceTree = "<group>"; };
+		462AE5844D80CFCC5931E87C4AA2A087 /* Pods-LAvilaEcommerce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAvilaEcommerce-acknowledgements.markdown"; sourceTree = "<group>"; };
 		49A34136B2AC6B5D2EAC050C2B94C858 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
 		4A9DA7C04D92B585FD2B1E3261FD3F7C /* IQKeyboardManager+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Position.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Position.swift"; sourceTree = "<group>"; };
 		4B33BE86BDF2FE68A43DC7231A00A2A7 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 		4FA01668BCCEA3ECAA15F7F68C0897CF /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
-		4FB4464AE9528B9C11F23CB283AF5BD9 /* Pods-LAvilaEcommerce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAvilaEcommerce-Info.plist"; sourceTree = "<group>"; };
+		4FB90F499A70ADEB428F3FCD7D5969CC /* Pods-LAvilaEcommerce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAvilaEcommerce-frameworks.sh"; sourceTree = "<group>"; };
 		52877E4CA53EAD2DDFD652328C41F0FD /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCell.swift; path = Source/SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		577BDC1B875E4CB2DFD87D7F9945DA08 /* SwipeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCellDelegate.swift; path = Source/SwipeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
 		582E92D51DD620A334F358FEA2CDAC9C /* SwipeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeController.swift; path = Source/SwipeController.swift; sourceTree = "<group>"; };
 		59A51866AC66D6A061C3F7BE36D65F05 /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
 		5B59A855F3848A4665F9D1B414E8E530 /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
+		5D2C811B6CCA577CC727D4D398B995CB /* Pods-LAvilaEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAvilaEcommerce.release.xcconfig"; sourceTree = "<group>"; };
+		5E0DDEB1A7B5633BEFC642FE51CF9404 /* Pods-LAvilaEcommerceVenta-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAvilaEcommerceVenta-acknowledgements.markdown"; sourceTree = "<group>"; };
 		616FB1711992C1EE52BFF1860F0BF73B /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
 		61B4ABBCB7977D0A3E67D213F9209A31 /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
 		61DA425DF73C0C9AF50615084E440134 /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
@@ -129,26 +151,28 @@
 		6565A1729D25F46B4ED16EB9AE592A0D /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		6855E77ED0CEAC8E09B946490F06144B /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
 		6C9C6E025B2F4D7D100D8BC9B57CC9F4 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
-		6FC45A65FFBF1369FB8078695B215446 /* Pods-LAvilaEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAvilaEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		71D40CDADE576AC2C8AE63F49D8C0D3A /* Pods-LAvilaEcommerceVenta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LAvilaEcommerceVenta-dummy.m"; sourceTree = "<group>"; };
 		78D26FCADB7663045A49EAB403D30563 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
 		79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A8007D82E50D09578E72EA234264523 /* Pods-LAvilaEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAvilaEcommerce.release.xcconfig"; sourceTree = "<group>"; };
 		7D8A78D6FF338511C445008697785C80 /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
 		800EED501B2704D0F96C1D923457F3E4 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
 		80EFE6EAD6F7B3421CDBB0599804D60F /* SwipeCellKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeCellKit-Info.plist"; sourceTree = "<group>"; };
 		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		867AF57A64BBBEAABE9C9C381F03578E /* IQKeyboardManager+Toolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Toolbar.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Toolbar.swift"; sourceTree = "<group>"; };
 		87DE995CDAFAA3C8A743302540DCC9C3 /* IQKeyboardManager+OrientationNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+OrientationNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+OrientationNotification.swift"; sourceTree = "<group>"; };
+		889F99C11B29621DEF8AAF3DEDDF9738 /* Pods-LAvilaEcommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAvilaEcommerce.debug.xcconfig"; sourceTree = "<group>"; };
 		893C21F2580D957FFEBFF74C965F04E7 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		8A2BA7ADC855F110C32B97D8F45423BC /* Pods-LAvilaEcommerceVenta-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAvilaEcommerceVenta-acknowledgements.plist"; sourceTree = "<group>"; };
 		8CF150DEB2CCD33FCBEC23BCCFC9F7B9 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
-		9242100C4C87C537AEECA832079C493C /* Pods-LAvilaEcommerce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LAvilaEcommerce-dummy.m"; sourceTree = "<group>"; };
 		962F3355C3416D6923971C7D4A26A84A /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
 		977C1BD0D6CE7024E42EACA7A0B9AFA3 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
 		982F04D3FE2239FA881B1289120832CD /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
 		99B94514975EE2E06786DAB0862D0D2B /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		9C980FD6359A539AC194EA4D51982935 /* Pods_LAvilaEcommerceVenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LAvilaEcommerceVenta.framework; path = "Pods-LAvilaEcommerceVenta.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C994AF492C088AD94A70290EA559D83 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
 		9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FCA9B1382C9273EB555444C50637D1E /* Pods-LAvilaEcommerce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LAvilaEcommerce-umbrella.h"; sourceTree = "<group>"; };
 		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0099708A10C8AE17A5CCBD67A9BD5FF /* SwipeCollectionViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Accessibility.swift"; path = "Source/SwipeCollectionViewCell+Accessibility.swift"; sourceTree = "<group>"; };
@@ -162,19 +186,22 @@
 		C5AE90B3B4C70A599E1BF4FDC1221C1E /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
 		CF2E5148C10BCEFFA74BC047ED4F0C3F /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
 		D837F7BC843B830FBF38BF1D7E294197 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
-		D850C9310A3459B9C2C38D6944F2FAB0 /* Pods-LAvilaEcommerce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LAvilaEcommerce.modulemap"; sourceTree = "<group>"; };
 		DBAA0DD52AF5F57C57C1BDC6DA7D32A6 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
 		DD152726221BD8EA8C5A869605F60CE7 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
 		DD308272E451B216FB4ACED672D71FB2 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
 		DE24E777C49BD78EE2D5D2BFA1D7592D /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
 		E05EA3F7E2422566B30795D211FE5BB8 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
 		E0991E612A265664206C1E876881E2D8 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		E2FFB0A6886EAE27B2EA33349AA066DF /* Pods-LAvilaEcommerceVenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAvilaEcommerceVenta.debug.xcconfig"; sourceTree = "<group>"; };
 		E57DEB414FD967D3FB050D1A4FA847C1 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
 		E6D605899614D9E28C3BA8A9641859AC /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
+		E7D0E086CBFE9F10374F81D5ECEEB3A4 /* Pods-LAvilaEcommerce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LAvilaEcommerce-dummy.m"; sourceTree = "<group>"; };
 		E8622ED98F8FAE42118616E30E9C1EED /* iOSDropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.xcconfig; sourceTree = "<group>"; };
 		F04083FE3E0EEA32565D44C26A862D52 /* SwipeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeOptions.swift; path = Source/SwipeOptions.swift; sourceTree = "<group>"; };
+		F0AFCDF1A462EDFC53AC8707C0902DA6 /* Pods-LAvilaEcommerceVenta-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAvilaEcommerceVenta-frameworks.sh"; sourceTree = "<group>"; };
+		F371A7A6268BC30113842C224DE2C676 /* Pods-LAvilaEcommerceVenta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LAvilaEcommerceVenta-umbrella.h"; sourceTree = "<group>"; };
+		F37E09F64FC0D0511529AF28904D7B25 /* Pods-LAvilaEcommerceVenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAvilaEcommerceVenta.release.xcconfig"; sourceTree = "<group>"; };
 		F424960A0DD23E17681DE18A335457D1 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+UITextFieldViewNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
-		F7D3BBD8B3C5B6A1E43DB85E33E259F7 /* Pods-LAvilaEcommerce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LAvilaEcommerce-umbrella.h"; sourceTree = "<group>"; };
 		F9166689DCAA365FA0939E3E500FB6E4 /* IQKeyboardManager+UIKeyboardNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+UIKeyboardNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+UIKeyboardNotification.swift"; sourceTree = "<group>"; };
 		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF270639DDD92C76D6F1EFF99724DA99 /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
@@ -206,6 +233,14 @@
 				AAA17614D6EEDDBB8C01B555D753D881 /* Foundation.framework in Frameworks */,
 				85E152853ADDFDB0870A4A17E1A68C41 /* QuartzCore.framework in Frameworks */,
 				07E9E95182A16E43D6681A277ADA376C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0E21EF492271B423869FCD9C56007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583DE3773B9AE2C05D6B9C84C2D2E166 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,40 +328,42 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2CC73D2AF4C8E02A50D67D4C28523F53 /* Products */ = {
+		39D63D1CB2A1599063DDE5D2D223B4F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */,
 				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift.framework */,
 				017640E4782284E167D8494E83D4581C /* Pods_LAvilaEcommerce.framework */,
+				9C980FD6359A539AC194EA4D51982935 /* Pods_LAvilaEcommerceVenta.framework */,
 				9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		995C147B6BEEBA64F123750AA845B1AA /* Pods-LAvilaEcommerce */ = {
+		43AEBE37722D99E6CFFA1CF157F8DA8E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D850C9310A3459B9C2C38D6944F2FAB0 /* Pods-LAvilaEcommerce.modulemap */,
-				499A500F48A0DAC93747885B94A4FCED /* Pods-LAvilaEcommerce-acknowledgements.markdown */,
-				2953527A796F60E7C8CC1CCA75201158 /* Pods-LAvilaEcommerce-acknowledgements.plist */,
-				9242100C4C87C537AEECA832079C493C /* Pods-LAvilaEcommerce-dummy.m */,
-				47B0D416DE99FAD2555B7BC6E5C0716D /* Pods-LAvilaEcommerce-frameworks.sh */,
-				4FB4464AE9528B9C11F23CB283AF5BD9 /* Pods-LAvilaEcommerce-Info.plist */,
-				F7D3BBD8B3C5B6A1E43DB85E33E259F7 /* Pods-LAvilaEcommerce-umbrella.h */,
-				6FC45A65FFBF1369FB8078695B215446 /* Pods-LAvilaEcommerce.debug.xcconfig */,
-				7A8007D82E50D09578E72EA234264523 /* Pods-LAvilaEcommerce.release.xcconfig */,
+				4DA25B3CD7B1EA8CDCFDB24F71E9920B /* Pods-LAvilaEcommerce */,
+				FD854A31E74718E5E5E858C3AF1DCB3C /* Pods-LAvilaEcommerceVenta */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4DA25B3CD7B1EA8CDCFDB24F71E9920B /* Pods-LAvilaEcommerce */ = {
+			isa = PBXGroup;
+			children = (
+				185EB2D569982F358532F047DECC3B62 /* Pods-LAvilaEcommerce.modulemap */,
+				462AE5844D80CFCC5931E87C4AA2A087 /* Pods-LAvilaEcommerce-acknowledgements.markdown */,
+				03F5F9B2189E69209A569193523ADEEE /* Pods-LAvilaEcommerce-acknowledgements.plist */,
+				E7D0E086CBFE9F10374F81D5ECEEB3A4 /* Pods-LAvilaEcommerce-dummy.m */,
+				4FB90F499A70ADEB428F3FCD7D5969CC /* Pods-LAvilaEcommerce-frameworks.sh */,
+				3F663AE5C69339294D211D40A8CEA02C /* Pods-LAvilaEcommerce-Info.plist */,
+				9FCA9B1382C9273EB555444C50637D1E /* Pods-LAvilaEcommerce-umbrella.h */,
+				889F99C11B29621DEF8AAF3DEDDF9738 /* Pods-LAvilaEcommerce.debug.xcconfig */,
+				5D2C811B6CCA577CC727D4D398B995CB /* Pods-LAvilaEcommerce.release.xcconfig */,
 			);
 			name = "Pods-LAvilaEcommerce";
 			path = "Target Support Files/Pods-LAvilaEcommerce";
-			sourceTree = "<group>";
-		};
-		AAACB1270B451F310FAC042A8C9FA650 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				995C147B6BEEBA64F123750AA845B1AA /* Pods-LAvilaEcommerce */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		B9363182EB3C7B4431AD406FB337A9A6 /* Support Files */ = {
@@ -357,8 +394,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				2BD5F370447E456E064280CD558696E0 /* Pods */,
-				2CC73D2AF4C8E02A50D67D4C28523F53 /* Products */,
-				AAACB1270B451F310FAC042A8C9FA650 /* Targets Support Files */,
+				39D63D1CB2A1599063DDE5D2D223B4F7 /* Products */,
+				43AEBE37722D99E6CFFA1CF157F8DA8E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -411,9 +448,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FD854A31E74718E5E5E858C3AF1DCB3C /* Pods-LAvilaEcommerceVenta */ = {
+			isa = PBXGroup;
+			children = (
+				2A4D416672F06948003F1D91B82B88F7 /* Pods-LAvilaEcommerceVenta.modulemap */,
+				5E0DDEB1A7B5633BEFC642FE51CF9404 /* Pods-LAvilaEcommerceVenta-acknowledgements.markdown */,
+				8A2BA7ADC855F110C32B97D8F45423BC /* Pods-LAvilaEcommerceVenta-acknowledgements.plist */,
+				71D40CDADE576AC2C8AE63F49D8C0D3A /* Pods-LAvilaEcommerceVenta-dummy.m */,
+				F0AFCDF1A462EDFC53AC8707C0902DA6 /* Pods-LAvilaEcommerceVenta-frameworks.sh */,
+				39AED23DE94CF0DD1A2BD4962287E287 /* Pods-LAvilaEcommerceVenta-Info.plist */,
+				F371A7A6268BC30113842C224DE2C676 /* Pods-LAvilaEcommerceVenta-umbrella.h */,
+				E2FFB0A6886EAE27B2EA33349AA066DF /* Pods-LAvilaEcommerceVenta.debug.xcconfig */,
+				F37E09F64FC0D0511529AF28904D7B25 /* Pods-LAvilaEcommerceVenta.release.xcconfig */,
+			);
+			name = "Pods-LAvilaEcommerceVenta";
+			path = "Target Support Files/Pods-LAvilaEcommerceVenta";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1AF0219685BA69F4AB4E5885C89D5A76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3602D0082A20F4812DD04B8A9138859 /* Pods-LAvilaEcommerceVenta-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3C70CD4F5874D09D2DA31DEAD95EA603 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -506,6 +568,26 @@
 			productReference = 017640E4782284E167D8494E83D4581C /* Pods_LAvilaEcommerce.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		726F27E61C914E87F4FFF81D3F7C55C8 /* Pods-LAvilaEcommerceVenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAC504F52F6CF518B50BC54089DF4C4 /* Build configuration list for PBXNativeTarget "Pods-LAvilaEcommerceVenta" */;
+			buildPhases = (
+				1AF0219685BA69F4AB4E5885C89D5A76 /* Headers */,
+				AE04821AC0E829BA432D4B5E3A4B2387 /* Sources */,
+				DFF0E21EF492271B423869FCD9C56007 /* Frameworks */,
+				1F2EDB41BCFB441CB1B20EC2B90A0915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39611E513499215425752241C72BBEE7 /* PBXTargetDependency */,
+				D5626A5B3EB6DF23FB2BED222AF94378 /* PBXTargetDependency */,
+			);
+			name = "Pods-LAvilaEcommerceVenta";
+			productName = "Pods-LAvilaEcommerceVenta";
+			productReference = 9C980FD6359A539AC194EA4D51982935 /* Pods_LAvilaEcommerceVenta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67E3C90C0C82848552CF5ADE0F860E08 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
@@ -542,19 +624,27 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2CC73D2AF4C8E02A50D67D4C28523F53 /* Products */;
+			productRefGroup = 39D63D1CB2A1599063DDE5D2D223B4F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
 				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
 				46F97022229C739EC9983A9D584AAAA6 /* Pods-LAvilaEcommerce */,
+				726F27E61C914E87F4FFF81D3F7C55C8 /* Pods-LAvilaEcommerceVenta */,
 				1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F2EDB41BCFB441CB1B20EC2B90A0915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44288F2F826CB3F7E561C03FCD07E306 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -634,6 +724,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE04821AC0E829BA432D4B5E3A4B2387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580E4EBD3920BD9B5CB46337F06F7DD8 /* Pods-LAvilaEcommerceVenta-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C07B88008CA21CD451A7B5F73AD27E2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -667,6 +765,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		39611E513499215425752241C72BBEE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 1A83F45ECFEEC3F0EBEF6ECDEFEF902C /* PBXContainerItemProxy */;
+		};
 		4AE251EFDB01D35393D80E614ED10807 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManagerSwift;
@@ -679,6 +783,12 @@
 			target = 1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */;
 			targetProxy = 71528D293096A4B38B9D2F96F59154E5 /* PBXContainerItemProxy */;
 		};
+		D5626A5B3EB6DF23FB2BED222AF94378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = 1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */;
+			targetProxy = F586E7B334BBC495711D14ED9170E9B1 /* PBXContainerItemProxy */;
+		};
 		F25E7C610DF0F891AAE04B463FA6446F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSDropDown;
@@ -688,9 +798,46 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0953936328A1D195144CCE96250851B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FFB0A6886EAE27B2EA33349AA066DF /* Pods-LAvilaEcommerceVenta.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		168227DCD539A1C42336A9BC22F8913A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A8007D82E50D09578E72EA234264523 /* Pods-LAvilaEcommerce.release.xcconfig */;
+			baseConfigurationReference = 5D2C811B6CCA577CC727D4D398B995CB /* Pods-LAvilaEcommerce.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -712,6 +859,44 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1715488A82C7DD845C9D0AA9543EBEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37E09F64FC0D0511529AF28904D7B25 /* Pods-LAvilaEcommerceVenta.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -832,7 +1017,7 @@
 		};
 		99365E5C8D8F02D54C1D4FD3AA16C72D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FC45A65FFBF1369FB8078695B215446 /* Pods-LAvilaEcommerce.debug.xcconfig */;
+			baseConfigurationReference = 889F99C11B29621DEF8AAF3DEDDF9738 /* Pods-LAvilaEcommerce.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1131,6 +1316,15 @@
 			buildConfigurations = (
 				CB3678D69D4B2CD177EBB8C649CD3D72 /* Debug */,
 				97D59E8F3AAB1BB66B35B5AB89237444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAC504F52F6CF518B50BC54089DF4C4 /* Build configuration list for PBXNativeTarget "Pods-LAvilaEcommerceVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0953936328A1D195144CCE96250851B8 /* Debug */,
+				1715488A82C7DD845C9D0AA9543EBEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,3 +11,13 @@ pod 'iOSDropDown'
 pod 'IQKeyboardManagerSwift'
 
 end
+
+target 'LAvilaEcommerceVenta' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LAvilaEcommerce
+pod 'SwipeCellKit'
+pod 'IQKeyboardManagerSwift'
+
+end

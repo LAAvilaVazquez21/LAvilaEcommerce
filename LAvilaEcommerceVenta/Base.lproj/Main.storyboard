@@ -18,7 +18,7 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="jYX-An-wPx"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ihP-zM-oDC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -53,11 +53,11 @@
             <objects>
                 <viewController id="vKU-Lm-5gs" customClass="AreaController" customModule="LAvilaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FKn-7C-iNZ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5AV-ll-Tpn">
-                                <rect key="frame" x="20" y="113.33333333333331" width="353" height="689.66666666666674"/>
+                                <rect key="frame" x="20" y="125.33333333333331" width="353" height="716.66666666666674"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZNU-sp-V14">
                                     <size key="itemSize" width="90" height="90"/>
@@ -77,7 +77,7 @@
                                 </cells>
                             </collectionView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oQY-fI-efp">
-                                <rect key="frame" x="20" y="74" width="353" height="34.333333333333343"/>
+                                <rect key="frame" x="20" y="86" width="353" height="34.333333333333343"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="stx-ef-wys">
                                         <rect key="frame" x="0.0" y="0.0" width="176.66666666666666" height="34.333333333333336"/>
@@ -128,11 +128,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarritoCell" rowHeight="81" id="3Ed-uY-YH2">
-                                <rect key="frame" x="0.0" y="50" width="393" height="81"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarritoCell" rowHeight="300" id="3Ed-uY-YH2">
+                                <rect key="frame" x="0.0" y="50" width="393" height="300"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3Ed-uY-YH2" id="0oF-J5-40h">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="81"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="300"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -172,7 +172,7 @@
             <objects>
                 <collectionViewController id="iq9-Vc-iRu" customClass="DepartamentoController" customModule="LAvilaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ysJ-L8-xaf">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Syd-l4-Qza">
@@ -211,7 +211,7 @@
             <objects>
                 <collectionViewController id="BAD-ka-63A" customClass="ProductosColeccionController" customModule="LAvilaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="WZc-sk-EOk">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TYK-Zr-rTo">
@@ -248,7 +248,7 @@
         <scene sceneID="cG7-gu-GVk">
             <objects>
                 <viewController id="0Qx-ou-nQ1" customClass="LoginController" customModule="LAvilaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fMu-no-uKF">
+                    <view key="view" alpha="0.75" contentMode="scaleToFill" id="fMu-no-uKF">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -265,8 +265,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="EZZ-gw-Izl">
-                                <rect key="frame" x="10" y="353" width="373" height="442"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="EZZ-gw-Izl">
+                                <rect key="frame" x="10" y="353" width="373" height="410"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USUARIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueL-xI-6Pb">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="50"/>
@@ -275,38 +275,38 @@
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="luis21@gmail.com" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="KN1-xz-oVD">
-                                        <rect key="frame" x="0.0" y="49" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="45" width="373" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vN-p2-Vhy">
-                                        <rect key="frame" x="0.0" y="98" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="90" width="373" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YrX-j0-jkO">
-                                        <rect key="frame" x="0.0" y="147" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="135" width="373" height="50"/>
                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="16"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="luis210221" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TIw-0R-59Q">
-                                        <rect key="frame" x="0.0" y="196" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="180" width="373" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHy-YG-TDk">
-                                        <rect key="frame" x="0.0" y="245" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="225" width="373" height="50"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xv7-K6-6dM">
-                                        <rect key="frame" x="0.0" y="294" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="270" width="373" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Registrar Usuario">
                                             <fontDescription key="titleFontDescription" type="italicSystem" pointSize="20"/>
@@ -314,17 +314,17 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="btcagregarusuario:" destination="0Qx-ou-nQ1" eventType="touchUpInside" id="8yN-KM-g83"/>
-                                            <segue destination="4vs-2f-hHk" kind="show" identifier="segueagregar" id="LXf-1I-Cgf"/>
+                                            <segue destination="4vs-2f-hHk" kind="presentation" identifier="segueagregar" modalPresentationStyle="fullScreen" id="LXf-1I-Cgf"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7E-kY-Ht8">
-                                        <rect key="frame" x="0.0" y="343" width="373" height="50"/>
+                                        <rect key="frame" x="0.0" y="315" width="373" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oh5-JY-keE">
-                                        <rect key="frame" x="0.0" y="392" width="373" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oh5-JY-keE">
+                                        <rect key="frame" x="0.0" y="360" width="373" height="50"/>
                                         <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="INICIAR SESION">
@@ -380,11 +380,11 @@
             <objects>
                 <viewController id="4vs-2f-hHk" customClass="RegistroController" customModule="LAvilaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CUE-ab-GQz">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="sOg-9u-NUh">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p" translatesAutoresizingMaskIntoConstraints="NO" id="sOg-9u-NUh">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="l" translatesAutoresizingMaskIntoConstraints="NO" id="1ik-FF-xz4">
                                 <rect key="frame" x="108" y="40" width="177" height="197"/>
@@ -495,7 +495,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="dsr-xT-5yu"/>
-        <segue reference="RdR-5R-R15"/>
+        <segue reference="FUj-0H-zqg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="O" width="256" height="256"/>
@@ -504,6 +504,7 @@
         <image name="l" width="1120" height="1120"/>
         <image name="login" width="173" height="375"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="p" width="173" height="375"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

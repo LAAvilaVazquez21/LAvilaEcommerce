@@ -9,7 +9,8 @@ import UIKit
 import SwipeCellKit
 
 class CarritoController: UITableViewController {
-    
+    var total : Double = 0
+    var subtotal : Int = 0
     let carritoViewModel = CarritoViewModel ()
     var producto : [Producto] = []
     var productosventas : [ProductoVentasViewModel] = []
@@ -46,8 +47,13 @@ class CarritoController: UITableViewController {
         
         cell.delegate = self
         
-        cell.CarritoNombre.text = productosventas[indexPath.row].producto?.Nombre
+      
+        cell.CarritoNom.text = productosventas[indexPath.row].producto?.Nombre
         cell.CarritoCantidad.text = productosventas[indexPath.row].Cantidad?.description
+        cell.CarritoPrecio.text = productosventas[indexPath.row].producto?.PrecioUnitario?.description
+        
+        subtotal = productosventas[indexPath.row].Cantidad! * (productosventas[indexPath.row].producto?.PrecioUnitario ?? 0) //+= subtotal
+        cell.CarritoPrecio.text = String (subtotal)
         
         if productosventas[indexPath.row].producto?.imagen == "" || productosventas[indexPath.row].producto?.imagen == nil {
             cell.imagenview.image = UIImage(named: "DefaultProducto")
@@ -60,6 +66,12 @@ class CarritoController: UITableViewController {
                 cell.imagenview.image = UIImage(data: newImageData)
             }
         }
+        
+        cell.StepperContador.value = Double(productosventas[indexPath.row].Cantidad!)
+        cell.StepperContador.tag = indexPath.row
+        cell.StepperContador.addTarget(self, action: #selector(Steeperaction), for: .touchUpInside)
+        
+       
         
         return cell
     }
@@ -76,14 +88,15 @@ extension CarritoController : SwipeTableViewCellDelegate{
             let deleteAction = SwipeAction(style: .destructive, title: "Delete") { [self] action, indexPath in
                 
                 
-                // let result =  UsuarioViewModel.Delete(IdUsuario: self.usuarios[indexPath.row].IdUsuario!)
-                
-                //                if result.Correct! {
-                //                    print("usuario Elimnado")
-                //                    self.UdpateUI()
-                //                }else{
-                //                    print("Ocurrio un error")
-                //                }
+                let result =  carritoViewModel.Delete(IdProducto: self.productosventas[indexPath.row].producto!.IdProducto!)
+
+                                if result.Correct! {
+                                    print("usuario Elimnado")
+                                    self.UpdateUI()
+                                }else{
+                                    print("Ocurrio un error")
+                                }
+
                 
             }
             return [deleteAction]
@@ -112,6 +125,23 @@ extension CarritoController : SwipeTableViewCellDelegate{
             }
             tableView.reloadData()
             
+        }
+    }
+    
+    @objc func Steeperaction(sender: UIStepper){
+        let indexPath = IndexPath(row: sender.tag, section: 0)
+        print("sender ---> \(sender.value)")
+        if sender.value >= 1{
+            if carritoViewModel.Update(IdProducto: (productosventas[indexPath.row].producto?.IdProducto)!,cantidad: Int(sender.value)).Correct!{
+                total = 0.0
+                UpdateUI()
+                print("Actualizo")
+            }else{
+                print("no se puede actualizar")
+            }
+        }else{
+            sender.value = 1
+            print("no se hace nada")
         }
     }
 }

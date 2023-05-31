@@ -21,7 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             }
         print(container.persistentStoreDescriptions.first?.url)
+        print("conexion exitosa con core data")
             return container
+       
         }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

@@ -54,6 +54,11 @@
 		7A87E8EC2A15364C00E2363A /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8EB2A15364C00E2363A /* Departamento.swift */; };
 		7A87E8EE2A1536E000E2363A /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8ED2A1536E000E2363A /* Proveedor.swift */; };
 		7A87E8F12A15373000E2363A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8F02A15373000E2363A /* Area.swift */; };
+		7AA3E92C2A265EB9003FE954 /* LAvilaEcommerceVentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3E92B2A265EB9003FE954 /* LAvilaEcommerceVentaTests.swift */; };
+		7AA3E9362A2682DB003FE954 /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */; };
+		7AA3E9382A2683C9003FE954 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7AA3E9372A2683C9003FE954 /* FirebaseAuth */; };
+		7AA3E9422A26CB17003FE954 /* LAvilaEcommerceVentaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3E9412A26CB17003FE954 /* LAvilaEcommerceVentaUITests.swift */; };
+		7AA3E9442A26CB17003FE954 /* LAvilaEcommerceVentaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3E9432A26CB17003FE954 /* LAvilaEcommerceVentaUITestsLaunchTests.swift */; };
 		7ABF6AE42A1FF42C00710224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6AE32A1FF42C00710224 /* AppDelegate.swift */; };
 		7ABF6AE62A1FF42C00710224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6AE52A1FF42C00710224 /* SceneDelegate.swift */; };
 		7ABF6AE82A1FF42C00710224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6AE72A1FF42C00710224 /* ViewController.swift */; };
@@ -61,7 +66,6 @@
 		7ABF6AED2A1FF42E00710224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF6AEC2A1FF42E00710224 /* Assets.xcassets */; };
 		7ABF6AF02A1FF42E00710224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF6AEE2A1FF42E00710224 /* LaunchScreen.storyboard */; };
 		7ABF6AF72A20010B00710224 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A54689029FC53A8006BA180 /* DBManager.swift */; };
-		7ABF6AF82A20011400710224 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87CB2A14336C00DB8E37 /* Producto.swift */; };
 		7ABF6AF92A20012400710224 /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8EB2A15364C00E2363A /* Departamento.swift */; };
 		7ABF6AFA2A20013900710224 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87E8F02A15373000E2363A /* Area.swift */; };
 		7ABF6AFB2A20014100710224 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0776172A1BCB77005D659F /* Login.swift */; };
@@ -82,11 +86,36 @@
 		7ABF6B252A202F6F00710224 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7ABF6B242A202F6F00710224 /* FirebaseStorage */; };
 		7ABF6B282A20398200710224 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF6B272A20398200710224 /* LoginController.swift */; };
 		7ABF6B292A20443F00710224 /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */; };
+		7AC69FCA2A258B11007B6A2D /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87CB2A14336C00DB8E37 /* Producto.swift */; };
 		7AC81E902A1ED092007C416C /* ProductosCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */; };
 		7AC81E922A1ED0CB007C416C /* ProductosViewModelLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */; };
 		7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */; };
 		9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA3E92D2A265EB9003FE954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A75DB2129FAFFAC0058795F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABF6AE02A1FF42C00710224;
+			remoteInfo = LAvilaEcommerceVenta;
+		};
+		7AA3E9392A2688C0003FE954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A75DB2129FAFFAC0058795F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A75DB2829FAFFAC0058795F;
+			remoteInfo = LAvilaEcommerce;
+		};
+		7AA3E9452A26CB17003FE954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A75DB2129FAFFAC0058795F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABF6AE02A1FF42C00710224;
+			remoteInfo = LAvilaEcommerceVenta;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		10C16E062A1DB31A0023CC50 /* DepartamentoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoViewModel.swift; sourceTree = "<group>"; };
@@ -134,6 +163,11 @@
 		7A87E8EB2A15364C00E2363A /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
 		7A87E8ED2A1536E000E2363A /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
 		7A87E8F02A15373000E2363A /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		7AA3E9292A265EB9003FE954 /* LAvilaEcommerceVentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAvilaEcommerceVentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA3E92B2A265EB9003FE954 /* LAvilaEcommerceVentaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAvilaEcommerceVentaTests.swift; sourceTree = "<group>"; };
+		7AA3E93F2A26CB17003FE954 /* LAvilaEcommerceVentaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAvilaEcommerceVentaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA3E9412A26CB17003FE954 /* LAvilaEcommerceVentaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAvilaEcommerceVentaUITests.swift; sourceTree = "<group>"; };
+		7AA3E9432A26CB17003FE954 /* LAvilaEcommerceVentaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAvilaEcommerceVentaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7ABF6AE12A1FF42C00710224 /* LAvilaEcommerceVenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAvilaEcommerceVenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABF6AE32A1FF42C00710224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ABF6AE52A1FF42C00710224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +205,21 @@
 				7A01C56C2A1D52F6000C215C /* FirebaseAuth in Frameworks */,
 				7A01C5702A1D52F6000C215C /* FirebaseStorage in Frameworks */,
 				9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3E9262A265EB9003FE954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA3E9382A2683C9003FE954 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3E93C2A26CB17003FE954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +344,8 @@
 				7A07761A2A1BEEFC005D659F /* GoogleService-Info.plist */,
 				7A75DB2B29FAFFAC0058795F /* LAvilaEcommerce */,
 				7ABF6AE22A1FF42C00710224 /* LAvilaEcommerceVenta */,
+				7AA3E92A2A265EB9003FE954 /* LAvilaEcommerceVentaTests */,
+				7AA3E9402A26CB17003FE954 /* LAvilaEcommerceVentaUITests */,
 				7A75DB2A29FAFFAC0058795F /* Products */,
 				46D862CDDA83749396531758 /* Pods */,
 				F3CB606989E526477D988672 /* Frameworks */,
@@ -306,6 +357,8 @@
 			children = (
 				7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */,
 				7ABF6AE12A1FF42C00710224 /* LAvilaEcommerceVenta.app */,
+				7AA3E9292A265EB9003FE954 /* LAvilaEcommerceVentaTests.xctest */,
+				7AA3E93F2A26CB17003FE954 /* LAvilaEcommerceVentaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +397,23 @@
 				7A4995A32A0C042500AA92F5 /* RolGetAllController.swift */,
 			);
 			path = Rol;
+			sourceTree = "<group>";
+		};
+		7AA3E92A2A265EB9003FE954 /* LAvilaEcommerceVentaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA3E92B2A265EB9003FE954 /* LAvilaEcommerceVentaTests.swift */,
+			);
+			path = LAvilaEcommerceVentaTests;
+			sourceTree = "<group>";
+		};
+		7AA3E9402A26CB17003FE954 /* LAvilaEcommerceVentaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA3E9412A26CB17003FE954 /* LAvilaEcommerceVentaUITests.swift */,
+				7AA3E9432A26CB17003FE954 /* LAvilaEcommerceVentaUITestsLaunchTests.swift */,
+			);
+			path = LAvilaEcommerceVentaUITests;
 			sourceTree = "<group>";
 		};
 		7ABF6AE22A1FF42C00710224 /* LAvilaEcommerceVenta */ = {
@@ -547,6 +617,46 @@
 			productReference = 7A75DB2929FAFFAC0058795F /* LAvilaEcommerce.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7AA3E9282A265EB9003FE954 /* LAvilaEcommerceVentaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA3E92F2A265EB9003FE954 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVentaTests" */;
+			buildPhases = (
+				7AA3E9252A265EB9003FE954 /* Sources */,
+				7AA3E9262A265EB9003FE954 /* Frameworks */,
+				7AA3E9272A265EB9003FE954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA3E93A2A2688C0003FE954 /* PBXTargetDependency */,
+				7AA3E92E2A265EB9003FE954 /* PBXTargetDependency */,
+			);
+			name = LAvilaEcommerceVentaTests;
+			packageProductDependencies = (
+				7AA3E9372A2683C9003FE954 /* FirebaseAuth */,
+			);
+			productName = LAvilaEcommerceVentaTests;
+			productReference = 7AA3E9292A265EB9003FE954 /* LAvilaEcommerceVentaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AA3E93E2A26CB17003FE954 /* LAvilaEcommerceVentaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA3E9472A26CB17003FE954 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVentaUITests" */;
+			buildPhases = (
+				7AA3E93B2A26CB17003FE954 /* Sources */,
+				7AA3E93C2A26CB17003FE954 /* Frameworks */,
+				7AA3E93D2A26CB17003FE954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA3E9462A26CB17003FE954 /* PBXTargetDependency */,
+			);
+			name = LAvilaEcommerceVentaUITests;
+			productName = LAvilaEcommerceVentaUITests;
+			productReference = 7AA3E93F2A26CB17003FE954 /* LAvilaEcommerceVentaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		7ABF6AE02A1FF42C00710224 /* LAvilaEcommerceVenta */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ABF6AF42A1FF42E00710224 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVenta" */;
@@ -584,6 +694,14 @@
 					7A75DB2829FAFFAC0058795F = {
 						CreatedOnToolsVersion = 14.3;
 					};
+					7AA3E9282A265EB9003FE954 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7ABF6AE02A1FF42C00710224;
+					};
+					7AA3E93E2A26CB17003FE954 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 7ABF6AE02A1FF42C00710224;
+					};
 					7ABF6AE02A1FF42C00710224 = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -599,7 +717,7 @@
 			);
 			mainGroup = 7A75DB2029FAFFAC0058795F;
 			packageReferences = (
-				7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */,
+				7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 7A75DB2A29FAFFAC0058795F /* Products */;
 			projectDirPath = "";
@@ -607,6 +725,8 @@
 			targets = (
 				7A75DB2829FAFFAC0058795F /* LAvilaEcommerce */,
 				7ABF6AE02A1FF42C00710224 /* LAvilaEcommerceVenta */,
+				7AA3E9282A265EB9003FE954 /* LAvilaEcommerceVentaTests */,
+				7AA3E93E2A26CB17003FE954 /* LAvilaEcommerceVentaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -623,6 +743,20 @@
 				7A75DB3429FAFFAC0058795F /* Main.storyboard in Resources */,
 				7A6C87C52A142CC400DB8E37 /* ProductosCell.xib in Resources */,
 				7A07761B2A1BEEFC005D659F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3E9272A265EB9003FE954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3E93D2A26CB17003FE954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,10 +893,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7AA3E9252A265EB9003FE954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA3E9362A2682DB003FE954 /* GoogleService-Info.plist in Sources */,
+				7AA3E92C2A265EB9003FE954 /* LAvilaEcommerceVentaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3E93B2A26CB17003FE954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA3E9422A26CB17003FE954 /* LAvilaEcommerceVentaUITests.swift in Sources */,
+				7AA3E9442A26CB17003FE954 /* LAvilaEcommerceVentaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7ABF6ADD2A1FF42C00710224 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC69FCA2A258B11007B6A2D /* Producto.swift in Sources */,
 				7A1F66112A251B710070B03E /* ProductosViewModel.swift in Sources */,
 				7A18AF412A21773B005BF06D /* Proveedor.swift in Sources */,
 				7A18AF3B2A215DD8005BF06D /* CarritoController.swift in Sources */,
@@ -781,7 +934,6 @@
 				7ABF6AF92A20012400710224 /* Departamento.swift in Sources */,
 				7A18AF2D2A211CBC005BF06D /* RegistroController.swift in Sources */,
 				7A18AF452A21885B005BF06D /* ProductoVentasViewModel.swift in Sources */,
-				7ABF6AF82A20011400710224 /* Producto.swift in Sources */,
 				7ABF6AF72A20010B00710224 /* DBManager.swift in Sources */,
 				7ABF6AE82A1FF42C00710224 /* ViewController.swift in Sources */,
 				7A18AF302A211FE5005BF06D /* LAvilaEcommerce.xcdatamodeld in Sources */,
@@ -795,6 +947,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AA3E92E2A265EB9003FE954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABF6AE02A1FF42C00710224 /* LAvilaEcommerceVenta */;
+			targetProxy = 7AA3E92D2A265EB9003FE954 /* PBXContainerItemProxy */;
+		};
+		7AA3E93A2A2688C0003FE954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A75DB2829FAFFAC0058795F /* LAvilaEcommerce */;
+			targetProxy = 7AA3E9392A2688C0003FE954 /* PBXContainerItemProxy */;
+		};
+		7AA3E9462A26CB17003FE954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABF6AE02A1FF42C00710224 /* LAvilaEcommerceVenta */;
+			targetProxy = 7AA3E9452A26CB17003FE954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7A75DB3229FAFFAC0058795F /* Main.storyboard */ = {
@@ -1006,6 +1176,76 @@
 			};
 			name = Release;
 		};
+		7AA3E9302A265EB9003FE954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GF78NBJ67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerceVentaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAvilaEcommerceVenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LAvilaEcommerceVenta";
+			};
+			name = Debug;
+		};
+		7AA3E9312A265EB9003FE954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GF78NBJ67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerceVentaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAvilaEcommerceVenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LAvilaEcommerceVenta";
+			};
+			name = Release;
+		};
+		7AA3E9482A26CB17003FE954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GF78NBJ67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerceVentaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LAvilaEcommerceVenta;
+			};
+			name = Debug;
+		};
+		7AA3E9492A26CB17003FE954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GF78NBJ67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.LAvilaEcommerceVentaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LAvilaEcommerceVenta;
+			};
+			name = Release;
+		};
 		7ABF6AF22A1FF42E00710224 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABD9E8ABECBCA171189B3DCA /* Pods-LAvilaEcommerceVenta.debug.xcconfig */;
@@ -1087,6 +1327,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7AA3E92F2A265EB9003FE954 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVentaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA3E9302A265EB9003FE954 /* Debug */,
+				7AA3E9312A265EB9003FE954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA3E9472A26CB17003FE954 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVentaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA3E9482A26CB17003FE954 /* Debug */,
+				7AA3E9492A26CB17003FE954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7ABF6AF42A1FF42E00710224 /* Build configuration list for PBXNativeTarget "LAvilaEcommerceVenta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1099,7 +1357,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */ = {
+		7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
@@ -1112,32 +1370,37 @@
 /* Begin XCSwiftPackageProductDependency section */
 		7A01C56B2A1D52F6000C215C /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
 		7A01C56D2A1D52F6000C215C /* FirebaseCrashlytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
 		};
 		7A01C56F2A1D52F6000C215C /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		7AA3E9372A2683C9003FE954 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 		7ABF6B202A202F6F00710224 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
 		};
 		7ABF6B222A202F6F00710224 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
 		7ABF6B242A202F6F00710224 /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk.git" */;
+			package = 7A01C56A2A1D52F6000C215C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */

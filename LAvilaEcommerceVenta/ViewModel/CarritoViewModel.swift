@@ -173,7 +173,7 @@ class CarritoViewModel{
                     
                        let result1 = ProductosViewModel.GetById(IdProducto: modeloventaproducto.producto?.IdProducto as! Int)
                        if result1.Correct!{
-                           //let producto = result1.Object! as! Departamento
+                          // let producto = result1.Object! as! Departamento
                          let producto = result1.Object! as! Producto
                            
                            modeloventaproducto.producto?.Nombre = producto.Nombre

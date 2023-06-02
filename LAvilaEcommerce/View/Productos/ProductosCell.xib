@@ -17,32 +17,32 @@
                 <rect key="frame" x="0.0" y="0.0" width="493" height="144"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Vh5-XF-JjQ">
-                        <rect key="frame" x="0.0" y="0.0" width="109.66666666666667" height="112.33333333333333"/>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5pb-YW-vGz">
+                        <rect key="frame" x="10" y="10" width="343" height="124"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6S-Ku-iQW">
-                                <rect key="frame" x="0.0" y="0.0" width="61.333333333333336" height="21.333333333333332"/>
+                                <rect key="frame" x="0.0" y="0.0" width="61.333333333333336" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                                 <color key="shadowColor" systemColor="labelColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9m-mz-Geb">
-                                <rect key="frame" x="0.0" y="30.333333333333336" width="90.666666666666671" height="21.333333333333336"/>
+                                <rect key="frame" x="0.0" y="33" width="90.666666666666671" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="labelColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxK-Cb-mky">
-                                <rect key="frame" x="0.0" y="60.666666666666664" width="48" height="21.333333333333336"/>
+                                <rect key="frame" x="0.0" y="66" width="48" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="labelColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Departamento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZtW-1A-BV2">
-                                <rect key="frame" x="0.0" y="91" width="109.66666666666667" height="21.333333333333329"/>
+                                <rect key="frame" x="0.0" y="99" width="109.66666666666667" height="25"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -60,10 +60,12 @@
                 </subviews>
                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstItem="Vh5-XF-JjQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2tc-ba-eOV"/>
-                    <constraint firstItem="Vh5-XF-JjQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9vO-Ms-S1z"/>
                     <constraint firstItem="jCA-DM-itm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="Bmu-d9-x2u"/>
+                    <constraint firstAttribute="bottom" secondItem="5pb-YW-vGz" secondAttribute="bottom" constant="10" id="CYl-df-ADq"/>
+                    <constraint firstItem="5pb-YW-vGz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="TYc-pS-kpB"/>
+                    <constraint firstItem="5pb-YW-vGz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="iGo-H7-6x8"/>
                     <constraint firstAttribute="trailing" secondItem="jCA-DM-itm" secondAttribute="trailing" constant="20" id="l2J-7s-PuB"/>
+                    <constraint firstItem="jCA-DM-itm" firstAttribute="leading" secondItem="5pb-YW-vGz" secondAttribute="trailing" constant="10" id="vBs-vV-wyh"/>
                 </constraints>
                 <variation key="heightClass=compact-widthClass=regular">
                     <nil key="backgroundColor"/>

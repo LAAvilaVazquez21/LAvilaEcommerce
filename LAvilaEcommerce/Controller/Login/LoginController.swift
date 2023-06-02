@@ -33,7 +33,9 @@ class LoginController: UIViewController {
     }
     
     
-    @IBAction func btnRegistrarUsuario(_ sender: UIButton) {
+    @IBAction func btnRegistrarUsuario(_ sender: Any) {
+//        btnRegistrarUsuario("Crash")
+//          fatalError("Crash was triggered")
         
         performSegue(withIdentifier: "segueregistro", sender: self)
         
@@ -43,7 +45,7 @@ class LoginController: UIViewController {
     
     @IBAction func btnlogging() {
         
-        
+      
         
         guard usuarioTxt.text != "" else {
             ddlusuario.text =  "El campo no puede ser vacio"

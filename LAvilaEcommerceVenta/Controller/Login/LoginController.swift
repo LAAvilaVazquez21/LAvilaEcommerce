@@ -26,8 +26,11 @@ class LoginController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+   
     
     @IBAction func btcagregarusuario(_ sender: Any) {
+//        btcagregarusuario("Crash")
+//          fatalError("Crash was triggered")
         
         performSegue(withIdentifier: "segueagregar", sender: self)
     }

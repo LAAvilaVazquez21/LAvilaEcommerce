@@ -602,6 +602,7 @@
 				7A75DB2629FAFFAC0058795F /* Frameworks */,
 				7A75DB2729FAFFAC0058795F /* Resources */,
 				7626C62606F829AE8E0DE04D /* [CP] Embed Pods Frameworks */,
+				7A5C2FF22A27F58300DF4160 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -666,6 +667,7 @@
 				7ABF6ADE2A1FF42C00710224 /* Frameworks */,
 				7ABF6ADF2A1FF42C00710224 /* Resources */,
 				FDEF0BA5DB68E817E3A2F3C4 /* [CP] Embed Pods Frameworks */,
+				7A5C2FF12A27EF8200DF4160 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -792,6 +794,44 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LAvilaEcommerce/Pods-LAvilaEcommerce-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		7A5C2FF12A27EF8200DF4160 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+		7A5C2FF22A27F58300DF4160 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
 		};
 		8CC98E4ADFA36937C77503AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1125,6 +1165,7 @@
 				CODE_SIGN_ENTITLEMENTS = LAvilaEcommerce/LAvilaEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 5GF78NBJ67;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LAvilaEcommerce/Info.plist;
@@ -1155,6 +1196,7 @@
 				CODE_SIGN_ENTITLEMENTS = LAvilaEcommerce/LAvilaEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 5GF78NBJ67;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LAvilaEcommerce/Info.plist;
@@ -1255,6 +1297,7 @@
 				CODE_SIGN_ENTITLEMENTS = LAvilaEcommerceVenta/LAvilaEcommerceVenta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 5GF78NBJ67;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LAvilaEcommerceVenta/Info.plist;

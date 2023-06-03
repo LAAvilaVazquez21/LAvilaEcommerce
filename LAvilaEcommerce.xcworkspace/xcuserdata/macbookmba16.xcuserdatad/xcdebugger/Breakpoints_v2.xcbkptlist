@@ -4769,22 +4769,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0E69891E-504A-459C-AC71-82626664FFFD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/Controller/Rol/RolGetAllController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "RolGetAllController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "891A332D-1F1B-436B-AAC0-7F6800159F38"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -4796,501 +4780,6 @@
             endingLineNumber = "12"
             landmarkName = "CarritoComprasCell"
             landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7F5A3126-DFE4-4B46-B30C-4A705BF12616"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
-            landmarkName = "GetAll()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7F5A3126-DFE4-4B46-B30C-4A705BF12616 - be8d4a8c62aaafed"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "1644">
-               </Location>
-               <Location
-                  uuid = "7F5A3126-DFE4-4B46-B30C-4A705BF12616 - be8d4a8c62aaafed"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "3192">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EC9222CE-7DF6-462B-BD5B-1DE4E45F1A35"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
-            landmarkName = "GetAll()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "EC9222CE-7DF6-462B-BD5B-1DE4E45F1A35 - be8d4a8c62aaa5b9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "174"
-                  endingLineNumber = "174"
-                  offsetFromSymbolStart = "1920">
-               </Location>
-               <Location
-                  uuid = "EC9222CE-7DF6-462B-BD5B-1DE4E45F1A35 - be8d4a8c62aaa59e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "175"
-                  endingLineNumber = "175"
-                  offsetFromSymbolStart = "1920">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F3D64DED-CDB8-4803-9171-C30855499476"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
-            landmarkName = "GetAll()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F3D64DED-CDB8-4803-9171-C30855499476 - be8d4a8c62aaafed"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "1644">
-               </Location>
-               <Location
-                  uuid = "F3D64DED-CDB8-4803-9171-C30855499476 - be8d4a8c62aaafed"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "3192">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "763343CC-CE52-4505-8DBD-77E92C1FDF38"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
-            landmarkName = "GetAll()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "763343CC-CE52-4505-8DBD-77E92C1FDF38 - efdc4525b4403178"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "130"
-                  endingLineNumber = "130"
-                  offsetFromSymbolStart = "2216">
-               </Location>
-               <Location
-                  uuid = "763343CC-CE52-4505-8DBD-77E92C1FDF38 - be8d4a8c62aaa635"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "170"
-                  endingLineNumber = "170"
-                  offsetFromSymbolStart = "792">
-               </Location>
-               <Location
-                  uuid = "763343CC-CE52-4505-8DBD-77E92C1FDF38 - be8d4a8c62aaa61a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "171"
-                  endingLineNumber = "171"
-                  offsetFromSymbolStart = "792">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C0540650-59BA-4384-9209-5D2C014EEDF0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
-            landmarkName = "GetAll()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C0540650-59BA-4384-9209-5D2C014EEDF0 - be8d4a8c62aaa4a0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "181"
-                  endingLineNumber = "181"
-                  offsetFromSymbolStart = "2544">
-               </Location>
-               <Location
-                  uuid = "C0540650-59BA-4384-9209-5D2C014EEDF0 - be8d4a8c62aaa481"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.GetAll() -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "182"
-                  endingLineNumber = "182"
-                  offsetFromSymbolStart = "2544">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BCF5E321-5088-4F15-B264-BAF7BCB3E3DE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
-            landmarkName = "GetById(IdProducto:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BCF5E321-5088-4F15-B264-BAF7BCB3E3DE - 8445cb76da1565f1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerceVenta.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "192"
-                  endingLineNumber = "192"
-                  offsetFromSymbolStart = "2372">
-               </Location>
-               <Location
-                  uuid = "BCF5E321-5088-4F15-B264-BAF7BCB3E3DE - 1bfa2422e28e0b2b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerce.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerce.Result"
-                  moduleName = "LAvilaEcommerce"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "192"
-                  endingLineNumber = "192"
-                  offsetFromSymbolStart = "2372">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "84AA1540-7373-4444-8C9A-65139933EC2A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
-            landmarkName = "GetById(IdProducto:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "84AA1540-7373-4444-8C9A-65139933EC2A - 8445cb76da156590"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerceVenta.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "193"
-                  endingLineNumber = "193"
-                  offsetFromSymbolStart = "2412">
-               </Location>
-               <Location
-                  uuid = "84AA1540-7373-4444-8C9A-65139933EC2A - 1bfa2422e28e0b4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerce.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerce.Result"
-                  moduleName = "LAvilaEcommerce"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "193"
-                  endingLineNumber = "193"
-                  offsetFromSymbolStart = "2412">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "357EFF6C-AD16-4613-AAD3-5FCD23F1A1BA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
-            landmarkName = "GetById(IdProducto:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "357EFF6C-AD16-4613-AAD3-5FCD23F1A1BA - 8445cb76da15646d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerceVenta.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "196"
-                  endingLineNumber = "196"
-                  offsetFromSymbolStart = "2872">
-               </Location>
-               <Location
-                  uuid = "357EFF6C-AD16-4613-AAD3-5FCD23F1A1BA - 1bfa2422e28e0ab7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerce.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerce.Result"
-                  moduleName = "LAvilaEcommerce"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "196"
-                  endingLineNumber = "196"
-                  offsetFromSymbolStart = "2872">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6ACDB9B3-BC38-4CD5-8980-8BAEEC26D6AB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
-            landmarkName = "GetById(IdProducto:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "6ACDB9B3-BC38-4CD5-8980-8BAEEC26D6AB - 8445cb76da15640c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerceVenta.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "197"
-                  endingLineNumber = "197"
-                  offsetFromSymbolStart = "2912">
-               </Location>
-               <Location
-                  uuid = "6ACDB9B3-BC38-4CD5-8980-8BAEEC26D6AB - 1bfa2422e28e0ad6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerce.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerce.Result"
-                  moduleName = "LAvilaEcommerce"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "197"
-                  endingLineNumber = "197"
-                  offsetFromSymbolStart = "2912">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0DEDE4C3-1A4F-488A-9EE2-15D13DFA9D74"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
-            landmarkName = "GetById(IdProducto:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0DEDE4C3-1A4F-488A-9EE2-15D13DFA9D74 - 8445cb76da1564e9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerceVenta.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerceVenta.Result"
-                  moduleName = "LAvilaEcommerceVenta"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "200"
-                  endingLineNumber = "200"
-                  offsetFromSymbolStart = "3384">
-               </Location>
-               <Location
-                  uuid = "0DEDE4C3-1A4F-488A-9EE2-15D13DFA9D74 - 1bfa2422e28e0a33"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static LAvilaEcommerce.ProductosViewModel.GetById(IdProducto: Swift.Int) -&gt; LAvilaEcommerce.Result"
-                  moduleName = "LAvilaEcommerce"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "200"
-                  endingLineNumber = "200"
-                  offsetFromSymbolStart = "3384">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -5338,39 +4827,22 @@
                   endingLineNumber = "58"
                   offsetFromSymbolStart = "1144">
                </Location>
+               <Location
+                  uuid = "8285415E-97B1-4A7D-BB97-41C3DF027650 - c42e084a7e3b8871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LAvilaEcommerceVenta.CarritoViewModel.Update(IdProducto: Swift.Int, cantidad: Swift.Int) -&gt; LAvilaEcommerceVenta.Result"
+                  moduleName = "LAvilaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba16/Documents/LUIS%20ANGEL%20AVILA%20VAZQUEZ%20-%20MAC/LAvilaEcommerce/LAvilaEcommerceVenta/ViewModel/CarritoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1176">
+               </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FD48E5F7-1A6E-4ED2-9154-29143D1FC07A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
-            landmarkName = "GetById(IdProducto:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1EC0A66B-E11E-468E-8515-3028993A7CAD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LAvilaEcommerce/ViewModel/ProductosViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
-            landmarkName = "GetById(IdProducto:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -5483,6 +4955,54 @@
                   offsetFromSymbolStart = "64">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "624A6D9E-582B-4C4B-A6B0-25C84DF53E04"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LAvilaEcommerceVenta/Controller/Carrito/CompraController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "CompraController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B110361-957F-4732-BF1A-26D328E746DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LAvilaEcommerceVenta/Controller/Carrito/CarritoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C46A52B-339B-4CC9-B187-B9114C81AAA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LAvilaEcommerceVenta/Controller/Carrito/CarritoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "Steeperaction(sender:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

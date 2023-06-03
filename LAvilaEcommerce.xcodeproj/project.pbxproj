@@ -89,6 +89,9 @@
 		7AC69FCA2A258B11007B6A2D /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C87CB2A14336C00DB8E37 /* Producto.swift */; };
 		7AC81E902A1ED092007C416C /* ProductosCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */; };
 		7AC81E922A1ED0CB007C416C /* ProductosViewModelLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */; };
+		7ADA40032A2AA02200583211 /* CompraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA40022A2AA02200583211 /* CompraController.swift */; };
+		7ADA40052A2AA6E900583211 /* MetodoPagoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA40042A2AA6E900583211 /* MetodoPagoViewModel.swift */; };
+		7ADA40092A2ABBB900583211 /* MetodoPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA40082A2ABBB900583211 /* MetodoPViewModel.swift */; };
 		7AF6F0B02A043DCE007B5C29 /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */; };
 		9300DF8FF636E5276C081CB2 /* Pods_LAvilaEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF4C0466D2CEB4D5A0E78DB /* Pods_LAvilaEcommerce.framework */; };
 /* End PBXBuildFile section */
@@ -188,6 +191,9 @@
 		7ABF6B272A20398200710224 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		7AC81E8F2A1ED092007C416C /* ProductosCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosCardViewModel.swift; sourceTree = "<group>"; };
 		7AC81E912A1ED0CB007C416C /* ProductosViewModelLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosViewModelLike.swift; sourceTree = "<group>"; };
+		7ADA40022A2AA02200583211 /* CompraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraController.swift; sourceTree = "<group>"; };
+		7ADA40042A2AA6E900583211 /* MetodoPagoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetodoPagoViewModel.swift; sourceTree = "<group>"; };
+		7ADA40082A2ABBB900583211 /* MetodoPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetodoPViewModel.swift; sourceTree = "<group>"; };
 		7AF6F0AF2A043DCE007B5C29 /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
 		8DF8C2DEC0ACC4D05F903E48 /* Pods_LAvilaEcommerceVenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAvilaEcommerceVenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD9E8ABECBCA171189B3DCA /* Pods-LAvilaEcommerceVenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAvilaEcommerceVenta.debug.xcconfig"; path = "Target Support Files/Pods-LAvilaEcommerceVenta/Pods-LAvilaEcommerceVenta.debug.xcconfig"; sourceTree = "<group>"; };
@@ -261,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				7A18AF322A213EA6005BF06D /* CarritoViewModel.swift */,
+				7ADA40082A2ABBB900583211 /* MetodoPViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -278,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				7A18AF3A2A215DD8005BF06D /* CarritoController.swift */,
+				7ADA40022A2AA02200583211 /* CompraController.swift */,
 			);
 			path = Carrito;
 			sourceTree = "<group>";
@@ -286,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				7A18AF442A21885B005BF06D /* ProductoVentasViewModel.swift */,
+				7ADA40042A2AA6E900583211 /* MetodoPagoViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -956,6 +965,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC69FCA2A258B11007B6A2D /* Producto.swift in Sources */,
+				7ADA40052A2AA6E900583211 /* MetodoPagoViewModel.swift in Sources */,
 				7A1F66112A251B710070B03E /* ProductosViewModel.swift in Sources */,
 				7A18AF412A21773B005BF06D /* Proveedor.swift in Sources */,
 				7A18AF3B2A215DD8005BF06D /* CarritoController.swift in Sources */,
@@ -967,6 +977,8 @@
 				7ABF6AFE2A20018400710224 /* ProductosCardViewModel.swift in Sources */,
 				7ABF6B182A20219700710224 /* ProductosCardCell.swift in Sources */,
 				7ABF6AFD2A20017E00710224 /* DepartamentoViewModel.swift in Sources */,
+				7ADA40092A2ABBB900583211 /* MetodoPViewModel.swift in Sources */,
+				7ADA40032A2AA02200583211 /* CompraController.swift in Sources */,
 				7ABF6AFC2A20017100710224 /* AreaViewModel.swift in Sources */,
 				7ABF6AFB2A20014100710224 /* Login.swift in Sources */,
 				7ABF6B092A20087000710224 /* DepartamentoController.swift in Sources */,

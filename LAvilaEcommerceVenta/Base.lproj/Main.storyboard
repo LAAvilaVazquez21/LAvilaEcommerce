@@ -51,7 +51,7 @@
         <!--Area Controller-->
         <scene sceneID="yiF-NG-tQH">
             <objects>
-                <viewController id="vKU-Lm-5gs" customClass="AreaController" customModule="LAvilaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PantallaRegreso" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vKU-Lm-5gs" customClass="AreaController" customModule="LAvilaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FKn-7C-iNZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -283,32 +283,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="el1-ex-rDN" customClass="JRDropDown">
-                                <rect key="frame" x="83" y="420" width="228" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="O3L-2K-0Nq"/>
-                                    <constraint firstAttribute="width" constant="228" id="ttx-an-b6d"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u9A-1S-cEk" customClass="JRDropDown">
+                                <rect key="frame" x="109" y="456" width="199" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="20"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="listHeight">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGq-Am-v7g">
-                                <rect key="frame" x="133" y="487" width="146" height="34.333333333333371"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGq-Am-v7g">
+                                <rect key="frame" x="133" y="573" width="146" height="34.333333333333371"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="FINALIZAR"/>
+                                <connections>
+                                    <action selector="btnFincompra:" destination="l3O-cc-3aA" eventType="touchUpInside" id="gKG-MR-cfF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jql-QH-gFV"/>
@@ -321,31 +311,27 @@
                             <constraint firstItem="mZO-Nq-pcQ" firstAttribute="leading" secondItem="Jql-QH-gFV" secondAttribute="leading" constant="185" id="5zj-I0-HDR"/>
                             <constraint firstItem="4dU-YB-C3P" firstAttribute="leading" secondItem="Jql-QH-gFV" secondAttribute="leading" constant="131" id="Dcb-D6-51Q"/>
                             <constraint firstItem="adY-sC-e3Z" firstAttribute="top" secondItem="AuU-hw-RIT" secondAttribute="bottom" constant="25" id="JiB-Mw-bcu"/>
-                            <constraint firstItem="xGq-Am-v7g" firstAttribute="top" secondItem="el1-ex-rDN" secondAttribute="bottom" constant="33" id="L1d-LC-WiV"/>
                             <constraint firstItem="Jql-QH-gFV" firstAttribute="trailing" secondItem="4dU-YB-C3P" secondAttribute="trailing" constant="132" id="LpO-7o-x6c"/>
                             <constraint firstItem="4dU-YB-C3P" firstAttribute="top" secondItem="Jql-QH-gFV" secondAttribute="top" constant="40" id="MCl-dG-eSe"/>
                             <constraint firstItem="AuU-hw-RIT" firstAttribute="leading" secondItem="Jql-QH-gFV" secondAttribute="leading" constant="86" id="MrV-UN-1ih"/>
                             <constraint firstItem="AuU-hw-RIT" firstAttribute="top" secondItem="FmC-Nc-B0a" secondAttribute="bottom" constant="32.670000000000002" id="QTZ-pv-6PK"/>
                             <constraint firstItem="I2I-aP-yXT" firstAttribute="leading" secondItem="Jql-QH-gFV" secondAttribute="leading" constant="133" id="TjG-DU-ZMc"/>
-                            <constraint firstItem="el1-ex-rDN" firstAttribute="top" secondItem="I2I-aP-yXT" secondAttribute="bottom" constant="25" id="UnT-tQ-GJW"/>
                             <constraint firstItem="Jql-QH-gFV" firstAttribute="trailing" secondItem="I2I-aP-yXT" secondAttribute="trailing" constant="113" id="Uqf-fZ-bLP"/>
                             <constraint firstItem="FmC-Nc-B0a" firstAttribute="leading" secondItem="Jql-QH-gFV" secondAttribute="leading" constant="83" id="WUz-IT-POO"/>
                             <constraint firstItem="Tcr-ds-Zao" firstAttribute="top" secondItem="Jql-QH-gFV" secondAttribute="top" id="ZI2-nk-hUm"/>
                             <constraint firstItem="mZO-Nq-pcQ" firstAttribute="top" secondItem="adY-sC-e3Z" secondAttribute="bottom" constant="36.670000000000002" id="aok-2Z-yjE"/>
                             <constraint firstItem="Jql-QH-gFV" firstAttribute="trailing" secondItem="FmC-Nc-B0a" secondAttribute="trailing" constant="84" id="bXx-7f-xga"/>
-                            <constraint firstItem="Jql-QH-gFV" firstAttribute="trailing" secondItem="xGq-Am-v7g" secondAttribute="trailing" constant="114" id="brD-sr-Z1g"/>
-                            <constraint firstItem="el1-ex-rDN" firstAttribute="leading" secondItem="Jql-QH-gFV" secondAttribute="leading" constant="83" id="ete-SH-UAM"/>
                             <constraint firstItem="FmC-Nc-B0a" firstAttribute="top" secondItem="4dU-YB-C3P" secondAttribute="bottom" constant="42" id="ijF-gv-HLj"/>
-                            <constraint firstItem="Jql-QH-gFV" firstAttribute="trailing" secondItem="el1-ex-rDN" secondAttribute="trailing" constant="82" id="mnw-AR-jtU"/>
                             <constraint firstItem="Jql-QH-gFV" firstAttribute="bottom" secondItem="Tcr-ds-Zao" secondAttribute="bottom" id="qG2-X8-bgv"/>
                             <constraint firstItem="Jql-QH-gFV" firstAttribute="trailing" secondItem="adY-sC-e3Z" secondAttribute="trailing" constant="43" id="s2c-qK-T7G"/>
                             <constraint firstItem="Jql-QH-gFV" firstAttribute="trailing" secondItem="Tcr-ds-Zao" secondAttribute="trailing" id="vAS-rG-Bxf"/>
                             <constraint firstItem="adY-sC-e3Z" firstAttribute="leading" secondItem="Jql-QH-gFV" secondAttribute="leading" constant="62" id="zbb-ZF-Qol"/>
-                            <constraint firstItem="xGq-Am-v7g" firstAttribute="leading" secondItem="Jql-QH-gFV" secondAttribute="leading" constant="133" id="zh0-Jw-r4d"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dU1-xs-oH1"/>
                     <connections>
+                        <outlet property="btnfinalizar" destination="xGq-Am-v7g" id="PQ8-q6-w2x"/>
+                        <outlet property="ddlmostrarmp" destination="u9A-1S-cEk" id="Amb-je-vhz"/>
                         <outlet property="labelCantidad" destination="p2B-Z5-jik" id="HdO-fS-OXq"/>
                         <outlet property="lblCantidadProducto" destination="mZO-Nq-pcQ" id="9zV-QU-0yF"/>
                     </connections>
@@ -700,7 +686,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="HHU-x2-HOQ"/>
+        <segue reference="dsr-xT-5yu"/>
         <segue reference="FUj-0H-zqg"/>
     </inferredMetricsTieBreakers>
     <resources>

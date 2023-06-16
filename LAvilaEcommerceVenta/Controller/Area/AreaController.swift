@@ -9,6 +9,11 @@ import SQLite3
 
 class AreaController: UIViewController {
 
+    
+
+    
+    
+    
     @IBOutlet weak var btcAction: UIButton!
     @IBOutlet weak var txtSearch: UITextField!
     
@@ -33,6 +38,8 @@ class AreaController: UIViewController {
         itemAreaVentas.dataSource = self
         updateUI()
         // Do any additional setup after loading the view.
+        
+        
     }
     
 
@@ -46,7 +53,9 @@ class AreaController: UIViewController {
         }
         guardardato = txtSearch.text!
         
-        self.performSegue(withIdentifier: "segueProductosArea", sender: self)    }
+        self.performSegue(withIdentifier: "segueProductosArea", sender: self)
+        
+    }
     
     
 

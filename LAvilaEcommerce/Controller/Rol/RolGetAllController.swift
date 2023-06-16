@@ -53,7 +53,7 @@ extension RolGetAllController :UITableViewDataSource, UITableViewDelegate{
         
         cell.lblidrol.text = rol[indexPath.row].idRol?.description
         cell.lblnombre.text = rol[indexPath.row].Nombre
-        
+        UITableView.automaticDimension
         
         return cell
     }
